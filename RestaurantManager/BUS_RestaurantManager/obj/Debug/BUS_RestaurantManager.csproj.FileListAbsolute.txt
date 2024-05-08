@@ -1,0 +1,11 @@
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\bin\Debug\BUS_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\bin\Debug\BUS_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\bin\Debug\DAL_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\bin\Debug\DTO_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\bin\Debug\DAL_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\bin\Debug\DTO_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.csproj.AssemblyReference.cache
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.csproj.CoreCompileInputs.cache
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_Rest.867B91CA.Up2Date
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.pdb

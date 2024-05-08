@@ -1,0 +1,6 @@
+E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\bin\Debug\DTO_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\bin\Debug\DTO_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.csproj.AssemblyReference.cache
+E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.csproj.CoreCompileInputs.cache
+E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.pdb

@@ -1,0 +1,14 @@
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\GUI_RestaurantManager.exe.config
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\GUI_RestaurantManager.exe
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\GUI_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\BUS_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\DTO_RestaurantManager.dll
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\BUS_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\bin\Debug\DTO_RestaurantManager.pdb
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.csproj.AssemblyReference.cache
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.Properties.Resources.resources
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.csproj.GenerateResource.cache
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.csproj.CoreCompileInputs.cache
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_Rest.5583B5BF.Up2Date
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.exe
+E:\LTCSDL\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.pdb
