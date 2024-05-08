@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI_RestaurantManager
 {
-    public partial class Form1 : Form
+    public partial class GUI_QuanTri : Form
     {
-        public Form1()
+        public GUI_QuanTri()
         {
             InitializeComponent();
         }

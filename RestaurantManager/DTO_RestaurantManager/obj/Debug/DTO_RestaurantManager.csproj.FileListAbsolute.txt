@@ -4,3 +4,9 @@ E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManage
 E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.csproj.CoreCompileInputs.cache
 E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.dll
 E:\LTCSDL\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DTO_RestaurantManager\bin\Debug\DTO_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DTO_RestaurantManager\bin\Debug\DTO_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DTO_RestaurantManager\obj\Debug\DTO_RestaurantManager.pdb

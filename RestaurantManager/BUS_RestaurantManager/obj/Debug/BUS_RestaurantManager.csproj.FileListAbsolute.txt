@@ -9,3 +9,14 @@ E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManage
 E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_Rest.867B91CA.Up2Date
 E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.dll
 E:\LTCSDL\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\bin\Debug\BUS_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\bin\Debug\BUS_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\bin\Debug\DAL_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\bin\Debug\DTO_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\bin\Debug\DAL_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\bin\Debug\DTO_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_Rest.867B91CA.Up2Date
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\BUS_RestaurantManager\obj\Debug\BUS_RestaurantManager.pdb

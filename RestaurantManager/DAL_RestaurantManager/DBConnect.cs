@@ -9,6 +9,7 @@ namespace DAL_RestaurantManager
 {
     public class DBConnect
     {
-        protected SqlConnection connect = new SqlConnection("Data Source = SQL2022;Initial Catalog=QuanLyNhaHang; Intergrated Security =True");
+        protected SqlConnection connect = new SqlConnection("Data Source=ADMIN\\SQL2022;Initial Catalog=QuanLyNhaHang;Integrated Security=True");
+
     }
 }

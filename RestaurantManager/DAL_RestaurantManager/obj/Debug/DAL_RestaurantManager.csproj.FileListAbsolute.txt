@@ -7,3 +7,12 @@ E:\LTCSDL\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManage
 E:\LTCSDL\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_Rest.77390535.Up2Date
 E:\LTCSDL\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManager.dll
 E:\LTCSDL\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManager.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\bin\Debug\DAL_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\bin\Debug\DAL_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\bin\Debug\DTO_RestaurantManager.dll
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\bin\Debug\DTO_RestaurantManager.pdb
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\DAL_RestaurantManager\obj\Debug\DAL_Rest.77390535.Up2Date
