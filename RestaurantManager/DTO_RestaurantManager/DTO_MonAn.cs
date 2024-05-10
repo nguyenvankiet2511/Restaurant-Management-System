@@ -11,19 +11,25 @@ namespace DTO_RestaurantManager
         public int maMonAn { get; set; }
         public string tenMon { get; set; }
         public string moTa { get; set; }
-        public float giaMon { get; set; }
+        public int giaMon { get; set; }
 
         // Constructor không tham số
         public DTO_MonAn()
         {
         }
         // Constructor với tham số
-        public DTO_MonAn(int maMonAn, string tenMon, string moTa, float giaMon)
+        public DTO_MonAn(int maMonAn, string tenMon, string moTa, int giaMon)
         {
             this.maMonAn = maMonAn;
             this.tenMon = tenMon;
             this.moTa = moTa;
             this.giaMon = giaMon;
+        }
+        public DTO_MonAn(int maMonAn, string tenMon, string moTa)
+        {
+            this.maMonAn = maMonAn;
+            this.tenMon = tenMon;
+            this.moTa = moTa;
         }
     }
 }

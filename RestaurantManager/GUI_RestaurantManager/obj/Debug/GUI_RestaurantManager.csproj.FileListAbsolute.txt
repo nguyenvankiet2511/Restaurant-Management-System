@@ -33,3 +33,6 @@ C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_Restau
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.GUI_KhachHang.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.GUI_NhanVienTiepTan.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.GUI_QuanTri.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UC_DatBan.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UC_DatMon.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UC_XemMonAn.resources

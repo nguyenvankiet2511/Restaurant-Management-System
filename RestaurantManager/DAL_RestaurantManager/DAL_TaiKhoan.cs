@@ -11,8 +11,7 @@ namespace DAL_RestaurantManager
     public class DAL_TaiKhoan:DBConnect
     {
         public DAL_TaiKhoan() { }
-        SqlCommand sqlCommand;
-        SqlDataReader sqlDataReader;
+      
         public DTO_TaiKhoan KiemTraTaiKhoan( string query)
         {
            DTO_TaiKhoan taiKhoan = new DTO_TaiKhoan();
