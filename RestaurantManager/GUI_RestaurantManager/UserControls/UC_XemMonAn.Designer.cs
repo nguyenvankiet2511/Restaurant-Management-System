@@ -28,31 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGVMonAn = new System.Windows.Forms.DataGridView();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnSearch = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtKey = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGVMonAn)).BeginInit();
+            this.dataGVMonAn = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGVMonAn)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGVMonAn
-            // 
-            this.dataGVMonAn.AllowDrop = true;
-            this.dataGVMonAn.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGVMonAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGVMonAn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGVMonAn.Location = new System.Drawing.Point(0, 43);
-            this.dataGVMonAn.Name = "dataGVMonAn";
-            this.dataGVMonAn.RowHeadersWidth = 51;
-            this.dataGVMonAn.RowTemplate.Height = 24;
-            this.dataGVMonAn.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.dataGVMonAn.Size = new System.Drawing.Size(1391, 739);
-            this.dataGVMonAn.TabIndex = 0;
-            this.dataGVMonAn.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGVMonAn_CellContentClick);
             // 
             // panel1
             // 
@@ -97,14 +82,25 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.dataGVMonAn);
+            this.panel2.Controls.Add(this.panel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1391, 782);
             this.panel2.TabIndex = 2;
+            // 
+            // dataGVMonAn
+            // 
+            this.dataGVMonAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGVMonAn.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dataGVMonAn.Location = new System.Drawing.Point(0, 51);
+            this.dataGVMonAn.Name = "dataGVMonAn";
+            this.dataGVMonAn.RowHeadersWidth = 51;
+            this.dataGVMonAn.RowTemplate.Height = 24;
+            this.dataGVMonAn.Size = new System.Drawing.Size(1391, 731);
+            this.dataGVMonAn.TabIndex = 2;
             // 
             // UC_XemMonAn
             // 
@@ -113,21 +109,20 @@
             this.Controls.Add(this.panel2);
             this.Name = "UC_XemMonAn";
             this.Size = new System.Drawing.Size(1391, 782);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGVMonAn)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGVMonAn)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGVMonAn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtKey;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.DataGridView dataGVMonAn;
     }
 }

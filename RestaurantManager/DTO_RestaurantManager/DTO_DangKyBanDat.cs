@@ -25,8 +25,16 @@ namespace DTO_RestaurantManager
             this.soLuongNguoi = soLuongNguoi;
             this.viTri = viTri;
             this.ghiChu = ghiChu;
+            this.thoiGian = thoiGian;         
+        }
+        public DTO_DangKyBanDat(int maDK,int soLuongNguoi, int viTri, string ghiChu,bool trangThai, DateTime thoiGian)
+        {
+            this.maDK = maDK;
+            this.soLuongNguoi = soLuongNguoi;
+            this.viTri = viTri;
+            this.ghiChu = ghiChu;
+            this.trangThai= trangThai;
             this.thoiGian = thoiGian;
-             
         }
     }
 }

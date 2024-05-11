@@ -16,5 +16,9 @@ namespace BUS_RestaurantManager
         {
            return dal_banDat.ThemDatBan(bandat);
         }
+        public List<DTO_DangKyBanDat> DanhSachDonDatBan()
+        {
+          return  dal_banDat.DanhSachDonBanDat();
+        }
     }
 }

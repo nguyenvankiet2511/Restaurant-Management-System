@@ -10,6 +10,28 @@ namespace DAL_RestaurantManager
 {
     public class DAL_DangKyBanDat:DBConnect
     {
+        public List<DTO_DangKyBanDat> DanhSachDonBanDat()
+        {
+            List<DTO_DangKyBanDat> danhSachBanDat = new List<DTO_DangKyBanDat>();
+
+            connect.Open();
+            string query = "SELECT * FROM DangKyBanDat";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlDataReader = sqlCommand.ExecuteReader();
+            while (sqlDataReader.Read())
+            {
+
+                danhSachBanDat.Add(new DTO_DangKyBanDat(
+                    sqlDataReader.GetInt32(0),
+                    sqlDataReader.GetInt32(1),
+                    sqlDataReader.GetInt32(2),
+                    sqlDataReader.GetString(3),
+                    sqlDataReader.GetBoolean(4),
+                    sqlDataReader.GetDateTime(5)));
+            }
+            return danhSachBanDat;
+
+        }
         public bool ThemDatBan(DTO_DangKyBanDat datBan)
         {
             connect.Open();

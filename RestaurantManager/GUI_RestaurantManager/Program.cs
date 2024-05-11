@@ -16,7 +16,7 @@ namespace GUI_RestaurantManager
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI_KhachHang());
+            Application.Run(new GUI_NhanVienTiepTan());
         }
     }
 }
