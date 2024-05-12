@@ -16,16 +16,36 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
     public partial class UC_QuanLyBan : UserControl
     {
         private GUI_NhanVienTiepTan gui_nvtt;
+        private BUS_NguoiDung bus_nguoiDung=new BUS_NguoiDung();
+        private BUS_BanDat bus_banDat= new BUS_BanDat();
+        private BUS_KhachHang bus_khachHang = new BUS_KhachHang();
+        private Dictionary<Control, Size> initialControlSizes = new Dictionary<Control, Size>();
         public UC_QuanLyBan()
         {
             InitializeComponent();
             LoadTables();
             LoadMonAn();
         }
+        private void AddControlToPanel(Control control)
+        {
+           
+            panelBan.Controls.Add(control);
+
+            initialControlSizes[control] = control.Size;
+        }
+
+        // Phương thức để xóa tất cả các điều khiển từ panel và thiết lập lại kích thước ban đầu
+        private void ClearPanelAndResetSizes()
+        {
+            Size initialPanelSize = panelBan.Size;
+            panelBan.Controls.Clear();
+            panelBan.Size = initialPanelSize;
+            LoadTables();
+        }
 
         private void LoadTables()
         {
-            panelBan.Refresh();
+            
             BUS_Ban bus_Ban = new BUS_Ban();
             List<DTO_Ban> listBan = bus_Ban.getListBan();
             int pictureBoxWidth = 70;
@@ -78,10 +98,10 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
                         catch{dateThoiGian.Value=DateTime.Now;  }
                         txtViTri.Text = banDat.viTri.ToString();
                         lbMaBanDat.Text=banDat.maBanDat.ToString();
-                       // MessageBox.Show("Bàn đã được đặt hay đang sử dụng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        lbMaKH.Text=banDat.maKH.ToString();
                     }
                 };
-                panelBan.Controls.Add(tablePictureBox);
+                AddControlToPanel(tablePictureBox);
             }
         }
         private void LoadMonAn()
@@ -98,17 +118,66 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
         }
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            BUS_BanDat bus_banDat = new BUS_BanDat();
+            BUS_NguoiDung bus_nguoiDung = new BUS_NguoiDung();
             int maBanDat= Convert.ToInt32(lbMaBanDat.Text);
             int soLuongNguoi = Convert.ToInt32(txtSoLuong.Text);
             int viTri = Convert.ToInt32(txtViTri.Text);
-            //int maBanDat = Convert.ToInt32(lbMaBanDat.Text);
-            //int maBanDat = Convert.ToInt32(lbMaBanDat.Text);
-
-            DTO_BanDat banDatMoi= new DTO_BanDat();
+            int maKH= Convert.ToInt32(lbMaKH.Text);
+            string ten= txtName.Text;
+            string email= txtEmail.Text;
+            string soDienThoai= txtSoDienThoai.Text;    
+            DateTime thoiGian = dateThoiGian.Value;
+            DTO_BanDat banDatMoi= new DTO_BanDat( maBanDat,soLuongNguoi,viTri,thoiGian);
+            DTO_NguoiDung nguoiDungMoi = new DTO_NguoiDung(maKH, ten, email, soDienThoai);
+            bool result_KH= bus_nguoiDung.CapNhatThongTinNguoiDung(nguoiDungMoi);
+            bool result_banDat = bus_banDat.CapNhatThongTinBan(banDatMoi);
+            if (result_KH==true&& result_banDat==true) { MessageBox.Show("Cập nhật thành công"); }
+            else { MessageBox.Show("Cập nhật không thành công!"); }
         }
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            int soLuongNguoi = Convert.ToInt32(txtSoLuong.Text);
+            int viTri = Convert.ToInt32(txtViTri.Text);
+            string ten = txtName.Text;
+            string email = txtEmail.Text;
+            string soDienThoai = txtSoDienThoai.Text;
+            DateTime thoiGian = dateThoiGian.Value;
+            int maBan = Convert.ToInt32(txtViTri.Text);
+            int maNV = gui_nvtt.CurrentUser;
+            DTO_NguoiDung nguoiDung= new DTO_NguoiDung(ten, email, soDienThoai);
+            DTO_BanDat banDat = new DTO_BanDat(soLuongNguoi,viTri,thoiGian,maNV);
+            BUS_BanDat bus_banDat = new BUS_BanDat();
+            BUS_Ban bus_ban = new BUS_Ban();
+            int maKH = bus_nguoiDung.ThemNguoiDung(nguoiDung);
+            bool result_themKH = bus_khachHang.ThemKhachHang(maKH);
+            MessageBox.Show(maKH.ToString());
+            if (result_themKH) 
+            {
+                bool result = bus_banDat.ThemBanDat_KHMoi(banDat, maKH);
+                if (result)
+                {
+                    bus_ban.CapNhatTrangThaiBan(maBan);
+                    MessageBox.Show("Thêm thành công");
+                }
+                else { MessageBox.Show("Thêm không thành công!"); }
+            }    
+        }
 
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            int maBanDat= Convert.ToInt32(lbMaBanDat.Text);
+            int maBan= Convert.ToInt32(txtViTri.Text);
+            BUS_BanDat bus_BanDat = new BUS_BanDat();
+            BUS_Ban bus_ban=new BUS_Ban();
+            bool result= bus_BanDat.XoaBanDat(maBanDat);
+            if (result) 
+            {
+                bus_ban.CapNhatTrangThaiBan(maBan);
+                MessageBox.Show("Xóa thành công"); 
+            }
+            else { MessageBox.Show("Xóa không thành công!"); }
+            ClearPanelAndResetSizes();
         }
     }
 }

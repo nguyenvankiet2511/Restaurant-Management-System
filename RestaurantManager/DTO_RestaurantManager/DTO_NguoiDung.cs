@@ -27,6 +27,19 @@ namespace DTO_RestaurantManager
             this.diaChi = diaChi;
             this.soDienThoai = soDienThoai;
         }
+        public DTO_NguoiDung(string tenNguoiDung, string email, string soDienThoai)
+        {
+            this.tenNguoiDung = tenNguoiDung;
+            this.email = email;
+            this.soDienThoai = soDienThoai;
+        }
+        public DTO_NguoiDung(int idNguoiDung, string tenNguoiDung, string email, string soDienThoai)
+        {
+            this.idNguoiDung= idNguoiDung;
+            this.tenNguoiDung= tenNguoiDung;
+            this.email = email;
+            this.soDienThoai= soDienThoai;
+        }
         public DTO_NguoiDung(int idNguoiDung, string tenNguoiDung, string email, string diaChi, DateTime namSinh, string soDienThoai)
         {
             this.idNguoiDung = idNguoiDung;

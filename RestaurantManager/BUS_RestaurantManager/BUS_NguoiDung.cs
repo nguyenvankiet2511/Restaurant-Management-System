@@ -15,5 +15,13 @@ namespace BUS_RestaurantManager
         {
             return dal_nguoiDung.LayThongTinNguoiDung(nguoiDung);
         }
+        public bool CapNhatThongTinNguoiDung(DTO_NguoiDung nguoiDungMoi)
+        {
+            return dal_nguoiDung.CapNhapThongTinNguoiDung(nguoiDungMoi);
+        }
+        public int ThemNguoiDung(DTO_NguoiDung nguoiDung)
+        {
+            return dal_nguoiDung.ThemNguoiDung(nguoiDung) ;
+        }
     }
 }

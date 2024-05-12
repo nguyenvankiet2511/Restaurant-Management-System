@@ -55,7 +55,29 @@ namespace DAL_RestaurantManager
             }
             return false;
         }
-
+        public bool XoaBanDat(int maBanDat)
+        {
+            try
+            {
+                connect.Open();
+                string query = "DELETE FROM BanDat WHERE maBanDat = @MaBanDat";
+                sqlCommand = new SqlCommand(query, connect);
+                sqlCommand.Parameters.AddWithValue("@MaBanDat", maBanDat);
+                if (sqlCommand.ExecuteNonQuery() > 0)
+                {
+                    return true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                connect.Close();
+            }
+            return false;
+        }
         public bool ThemBanDat(DTO_BanDat banDat)
         {
             try
@@ -84,6 +106,23 @@ namespace DAL_RestaurantManager
             }
             return false;
         }
-
+        public bool ThemBanDat_KHMoi(DTO_BanDat banDat,int maNguoiDungMoi)
+        {
+            connect.Open();
+            // Thêm thông tin bàn đặt với mã người dùng mới vào bảng BanDat
+            string queryBanDat = "INSERT INTO BanDat (soLuongNguoi, viTri, thoiGian, maKH, maNVTT) VALUES (@SoLuongNguoi, @ViTri, @ThoiGian, @MaKH, @MaNV)";
+            SqlCommand sqlCommandBanDat = new SqlCommand(queryBanDat, connect);
+            sqlCommandBanDat.Parameters.AddWithValue("@SoLuongNguoi", banDat.soLuongNguoi);
+            sqlCommandBanDat.Parameters.AddWithValue("@ViTri", banDat.viTri);
+            sqlCommandBanDat.Parameters.AddWithValue("@ThoiGian", banDat.thoiGian);
+            sqlCommandBanDat.Parameters.AddWithValue("@MaKH", maNguoiDungMoi);
+            sqlCommandBanDat.Parameters.AddWithValue("@MaNV", banDat.maNV);
+            if (sqlCommandBanDat.ExecuteNonQuery() > 0)
+            {
+                connect.Close();
+                return true;
+            }             
+            return false;       
+        }
     }
 }

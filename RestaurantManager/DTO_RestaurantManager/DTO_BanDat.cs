@@ -31,6 +31,20 @@ namespace DTO_RestaurantManager
             this.maKH = maKH;
             this.maNV = maNV;
         }
+        public DTO_BanDat(int soLuongNguoi, int viTri, DateTime thoiGian, int maNV)
+        {
+            this.soLuongNguoi = soLuongNguoi;
+            this.viTri = viTri;
+            this.thoiGian = thoiGian;
+            this.maNV= maNV;
+        }
+        public DTO_BanDat(int maBanDat, int soLuongNguoi, int viTri, DateTime thoiGian)
+        {
+            this.maBanDat = maBanDat;
+            this.soLuongNguoi = soLuongNguoi;
+            this.viTri = viTri;
+            this.thoiGian = thoiGian;
+        }
         public DTO_BanDat( int maBanDat,int soLuongNguoi, int viTri ,DateTime thoiGian, int maNV,int maKH) 
         {
             this.maBanDat = maBanDat;

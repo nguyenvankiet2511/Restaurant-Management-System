@@ -12,13 +12,26 @@ namespace BUS_RestaurantManager
     {
         DAL_BanDat dal_banDat = new DAL_BanDat();
         public BUS_BanDat() { }
-        public bool themBanDat(DTO_BanDat banDat)
+        public bool ThemBanDat(DTO_BanDat banDat)
         {  
           return  dal_banDat.ThemBanDat(banDat);
+        }
+        public bool ThemBanDat_KHMoi(DTO_BanDat banDat, int maKH)
+        {
+            return dal_banDat.ThemBanDat_KHMoi(banDat, maKH);
         }
         public DTO_BanDat LayThongTinBan(int maBan)
         {
             return dal_banDat.LayThongTinBan(maBan);
         }
+        public bool CapNhatThongTinBan(DTO_BanDat banDatMoi) 
+        {
+            return dal_banDat.CapNhatThongTinBan(banDatMoi);
+        }
+        public bool XoaBanDat(int maBanDat)
+        {
+            return dal_banDat.XoaBanDat(maBanDat);
+        }
+
     }
 }

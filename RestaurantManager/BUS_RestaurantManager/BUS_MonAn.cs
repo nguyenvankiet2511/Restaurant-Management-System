@@ -19,5 +19,21 @@ namespace BUS_RestaurantManager
         {
             return dal_monAn.TimKiemMonAn(key);
         }
+        public bool ThemMonAn(DTO_MonAn monAn)
+        {
+           return dal_monAn.ThemMonAn(monAn);
+        }
+        public bool CapNhatMonAn(DTO_MonAn monAn)
+        {
+            return dal_monAn.CapNhatMonAn(monAn) ;
+        }
+        public bool XoaMonAn(int maMonAn)
+        {
+            return dal_monAn.XoaMonAn(maMonAn) ;
+        }
+        public bool KiemTraMonAn( string tenMon)
+        {
+            return dal_monAn.KiemTraMonAn( tenMon) ;
+        }
     }
 }

@@ -96,6 +96,30 @@
     <Compile Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.Designer.cs">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.Designer.cs">
+      <DependentUpon>UC_QLMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_QLNhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_QLNhanVien.Designer.cs">
+      <DependentUpon>UC_QLNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_QuyDinh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_QuyDinh.Designer.cs">
+      <DependentUpon>UC_QuyDinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_TKBC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_TKBC.Designer.cs">
+      <DependentUpon>UC_TKBC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -140,6 +164,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.resx">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.resx">
+      <DependentUpon>UC_QLMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_QuanTri\UC_QLNhanVien.resx">
+      <DependentUpon>UC_QLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.resx">
       <DependentUpon>UC_DonDatBan.cs</DependentUpon>

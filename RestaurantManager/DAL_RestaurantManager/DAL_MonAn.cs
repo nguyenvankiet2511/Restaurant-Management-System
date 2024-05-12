@@ -40,6 +40,64 @@ namespace DAL_RestaurantManager
             }
             return listMonAn;
         }
+        public bool ThemMonAn(DTO_MonAn monAn)
+        {
+            connect.Open();
+            string query = "INSERT INTO MonAn (tenMon, moTa, giaMon) VALUES (@TenMon, @MoTa, @GiaMon)";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@TenMon", monAn.tenMon);
+            sqlCommand.Parameters.AddWithValue("@MoTa", monAn.moTa);
+            sqlCommand.Parameters.AddWithValue("@GiaMon", monAn.giaMon);
+            if (sqlCommand.ExecuteNonQuery() > 0)
+            {
+                connect.Close();
+                return true;
+            }
+            connect.Close();
+            return false;
+        }
+        public bool CapNhatMonAn(DTO_MonAn monAn)
+        {
+            connect.Open();
+            string query = "UPDATE MonAn SET tenMon = @TenMon, moTa = @MoTa, giaMon = @GiaMon WHERE maMonAn = @MaMonAn";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@TenMon", monAn.tenMon);
+            sqlCommand.Parameters.AddWithValue("@MoTa", monAn.moTa);
+            sqlCommand.Parameters.AddWithValue("@GiaMon", monAn.giaMon);
+            sqlCommand.Parameters.AddWithValue("@MaMonAn", monAn.maMonAn);
+            if (sqlCommand.ExecuteNonQuery() > 0)
+            {
+                connect.Close();
+                return true;
+            }
+            connect.Close();
+            return false;
+        }
+        public bool XoaMonAn(int maMonAn)
+        {
+            connect.Open();
+            string query = "DELETE FROM MonAn WHERE maMonAn = @MaMonAn";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@MaMonAn", maMonAn);
+            if (sqlCommand.ExecuteNonQuery() > 0)
+            {
+                connect.Close();
+                return true;
+            }
+            connect.Close();
+            return false;
+        }
+        public bool KiemTraMonAn( string tenMon)
+        {
+            connect.Open();
+            string query = "SELECT COUNT(*) FROM MonAn WHERE LOWER(REPLACE(tenMon, ' ', '')) = @TenMon";
+            sqlCommand = new SqlCommand(query, connect); 
+            sqlCommand.Parameters.AddWithValue("@TenMon", tenMon.Trim().ToLower().Replace(" ", "")); // Loại bỏ khoảng trắng và chuyển về chữ thường
+            int count = Convert.ToInt32(sqlCommand.ExecuteScalar());
+            connect.Close();
+            return count > 0;
+        }
+
         public List<DTO_MonAn> TimKiemMonAn(string key)
         {
             List<DTO_MonAn> danhSachTimKiem = new List<DTO_MonAn>();

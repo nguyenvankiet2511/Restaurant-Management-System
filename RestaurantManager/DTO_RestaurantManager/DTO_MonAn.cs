@@ -25,11 +25,11 @@ namespace DTO_RestaurantManager
             this.moTa = moTa;
             this.giaMon = giaMon;
         }
-        public DTO_MonAn(int maMonAn, string tenMon, string moTa)
-        {
-            this.maMonAn = maMonAn;
+        public DTO_MonAn( string tenMon, string moTa, int giaMon)
+        {  
             this.tenMon = tenMon;
             this.moTa = moTa;
+            this.giaMon = giaMon;
         }
     }
 }

@@ -159,7 +159,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             foreach(DTO_DangKyBanDat d in dsdk)
             {
                 DTO_BanDat banDat = new DTO_BanDat(d.soLuongNguoi,d.viTri,d.ghiChu,d.thoiGian, d.maKH, gui_nvtt.CurrentUser);
-                bool result= bus_datBan.themBanDat(banDat);
+                bool result= bus_datBan.ThemBanDat(banDat);
                 if (result)
                 {
                     bus_dangKyBanDat.XoaDangKyBanDat(d.maDK);

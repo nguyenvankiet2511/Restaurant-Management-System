@@ -38,6 +38,13 @@
             this.dataGVThucDon = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dateThoiGian = new System.Windows.Forms.DateTimePicker();
+            this.txtViTri = new System.Windows.Forms.TextBox();
+            this.txtSoDienThoai = new System.Windows.Forms.TextBox();
+            this.txtSoLuong = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lbMaBanDat = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -49,13 +56,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.lbMaBanDat = new System.Windows.Forms.Label();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtSoLuong = new System.Windows.Forms.TextBox();
-            this.txtSoDienThoai = new System.Windows.Forms.TextBox();
-            this.txtViTri = new System.Windows.Forms.TextBox();
-            this.dateThoiGian = new System.Windows.Forms.DateTimePicker();
+            this.lbMaKH = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGVMonAn)).BeginInit();
@@ -173,6 +174,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel2.Controls.Add(this.lbMaKH);
             this.panel2.Controls.Add(this.dateThoiGian);
             this.panel2.Controls.Add(this.txtViTri);
             this.panel2.Controls.Add(this.txtSoDienThoai);
@@ -192,6 +194,58 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(620, 153);
             this.panel2.TabIndex = 2;
+            // 
+            // dateThoiGian
+            // 
+            this.dateThoiGian.CalendarFont = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateThoiGian.Location = new System.Drawing.Point(116, 56);
+            this.dateThoiGian.Name = "dateThoiGian";
+            this.dateThoiGian.Size = new System.Drawing.Size(214, 33);
+            this.dateThoiGian.TabIndex = 11;
+            // 
+            // txtViTri
+            // 
+            this.txtViTri.Location = new System.Drawing.Point(470, 102);
+            this.txtViTri.Name = "txtViTri";
+            this.txtViTri.Size = new System.Drawing.Size(147, 33);
+            this.txtViTri.TabIndex = 10;
+            // 
+            // txtSoDienThoai
+            // 
+            this.txtSoDienThoai.Location = new System.Drawing.Point(470, 56);
+            this.txtSoDienThoai.Name = "txtSoDienThoai";
+            this.txtSoDienThoai.Size = new System.Drawing.Size(147, 33);
+            this.txtSoDienThoai.TabIndex = 9;
+            // 
+            // txtSoLuong
+            // 
+            this.txtSoLuong.Location = new System.Drawing.Point(470, 11);
+            this.txtSoLuong.Name = "txtSoLuong";
+            this.txtSoLuong.Size = new System.Drawing.Size(147, 33);
+            this.txtSoLuong.TabIndex = 8;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(116, 102);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(214, 33);
+            this.txtEmail.TabIndex = 8;
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(116, 10);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(214, 33);
+            this.txtName.TabIndex = 7;
+            // 
+            // lbMaBanDat
+            // 
+            this.lbMaBanDat.AutoSize = true;
+            this.lbMaBanDat.Location = new System.Drawing.Point(386, 114);
+            this.lbMaBanDat.Name = "lbMaBanDat";
+            this.lbMaBanDat.Size = new System.Drawing.Size(0, 25);
+            this.lbMaBanDat.TabIndex = 6;
+            this.lbMaBanDat.Visible = false;
             // 
             // label9
             // 
@@ -261,6 +315,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Xóa";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -294,57 +349,14 @@
             this.label2.Text = "Thông tin bàn ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbMaBanDat
+            // lbMaKH
             // 
-            this.lbMaBanDat.AutoSize = true;
-            this.lbMaBanDat.Location = new System.Drawing.Point(386, 114);
-            this.lbMaBanDat.Name = "lbMaBanDat";
-            this.lbMaBanDat.Size = new System.Drawing.Size(0, 25);
-            this.lbMaBanDat.TabIndex = 6;
-            this.lbMaBanDat.Visible = false;
-            // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(116, 10);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(214, 33);
-            this.txtName.TabIndex = 7;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(116, 102);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(214, 33);
-            this.txtEmail.TabIndex = 8;
-            // 
-            // txtSoLuong
-            // 
-            this.txtSoLuong.Location = new System.Drawing.Point(470, 11);
-            this.txtSoLuong.Name = "txtSoLuong";
-            this.txtSoLuong.Size = new System.Drawing.Size(147, 33);
-            this.txtSoLuong.TabIndex = 8;
-            // 
-            // txtSoDienThoai
-            // 
-            this.txtSoDienThoai.Location = new System.Drawing.Point(470, 56);
-            this.txtSoDienThoai.Name = "txtSoDienThoai";
-            this.txtSoDienThoai.Size = new System.Drawing.Size(147, 33);
-            this.txtSoDienThoai.TabIndex = 9;
-            // 
-            // txtViTri
-            // 
-            this.txtViTri.Location = new System.Drawing.Point(470, 102);
-            this.txtViTri.Name = "txtViTri";
-            this.txtViTri.Size = new System.Drawing.Size(147, 33);
-            this.txtViTri.TabIndex = 10;
-            // 
-            // dateThoiGian
-            // 
-            this.dateThoiGian.CalendarFont = new System.Drawing.Font("Times New Roman", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateThoiGian.Location = new System.Drawing.Point(116, 56);
-            this.dateThoiGian.Name = "dateThoiGian";
-            this.dateThoiGian.Size = new System.Drawing.Size(214, 33);
-            this.dateThoiGian.TabIndex = 11;
+            this.lbMaKH.AutoSize = true;
+            this.lbMaKH.Location = new System.Drawing.Point(28, 128);
+            this.lbMaKH.Name = "lbMaKH";
+            this.lbMaKH.Size = new System.Drawing.Size(0, 25);
+            this.lbMaKH.TabIndex = 12;
+            this.lbMaKH.Visible = false;
             // 
             // UC_QuanLyBan
             // 
@@ -396,5 +408,6 @@
         private System.Windows.Forms.TextBox txtSoLuong;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lbMaKH;
     }
 }
