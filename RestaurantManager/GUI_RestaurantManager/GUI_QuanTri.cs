@@ -12,9 +12,15 @@ namespace GUI_RestaurantManager
 {
     public partial class GUI_QuanTri : Form
     {
+        public int CurrentUser { get; set; }
         public GUI_QuanTri()
         {
             InitializeComponent();
+        }
+
+        private void GUI_QuanTri_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

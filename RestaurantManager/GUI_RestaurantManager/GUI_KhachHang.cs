@@ -13,6 +13,7 @@ namespace GUI_RestaurantManager
 {
     public partial class GUI_KhachHang : Form
     {
+        public int CurrentUser { get; set; }
         public GUI_KhachHang()
         {
             InitializeComponent();
@@ -37,6 +38,7 @@ namespace GUI_RestaurantManager
         private void menuDatBan_Click(object sender, EventArgs e)
         {
             UC_DatBan uc_datBan = new UC_DatBan();
+            uc_datBan.SetParentForm(this);
             addUserControl(uc_datBan);
         }
 
@@ -44,6 +46,11 @@ namespace GUI_RestaurantManager
         {
             UC_DatMon uc_datMon = new UC_DatMon();
             addUserControl(uc_datMon);
+        }
+
+        private void panelContainer_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

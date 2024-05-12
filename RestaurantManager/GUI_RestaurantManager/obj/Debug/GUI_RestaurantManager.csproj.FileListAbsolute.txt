@@ -37,3 +37,4 @@ C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_Restau
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UC_DatMon.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UC_XemMonAn.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_TiepTan.UC_DonDatBan.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_TiepTan.UC_QuanLyBan.resources

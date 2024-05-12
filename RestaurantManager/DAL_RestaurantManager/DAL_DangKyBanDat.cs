@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -27,7 +28,9 @@ namespace DAL_RestaurantManager
                     sqlDataReader.GetInt32(2),
                     sqlDataReader.GetString(3),
                     sqlDataReader.GetBoolean(4),
-                    sqlDataReader.GetDateTime(5)));
+                    sqlDataReader.GetDateTime(5),
+                    sqlDataReader.GetInt32(6)));
+
             }
             return danhSachBanDat;
 
@@ -35,7 +38,7 @@ namespace DAL_RestaurantManager
         public bool ThemDatBan(DTO_DangKyBanDat datBan)
         {
             connect.Open();
-            string query = "INSERT INTO DangKyBanDat (soLuongNguoi, viTri, ghiChu, thoiGian) VALUES (@SoLuongNguoi, @ViTri, @GhiChu, @ThoiGian)";
+            string query = "INSERT INTO DangKyBanDat (soLuongNguoi, viTri, ghiChu, thoiGian, maKH) VALUES (@SoLuongNguoi, @ViTri, @GhiChu, @ThoiGian, @MaKH)";
             SqlCommand sqlCommand = new SqlCommand(query, connect);
 
             // Thêm các tham số
@@ -43,7 +46,7 @@ namespace DAL_RestaurantManager
             sqlCommand.Parameters.AddWithValue("@ViTri", datBan.viTri);
             sqlCommand.Parameters.AddWithValue("@GhiChu", datBan.ghiChu);
             sqlCommand.Parameters.AddWithValue("@ThoiGian", datBan.thoiGian);
-
+            sqlCommand.Parameters.AddWithValue("@MaKH", datBan.maKH);
             // Thực thi câu lệnh SQL
             if (sqlCommand.ExecuteNonQuery() > 0)
             {
@@ -56,5 +59,26 @@ namespace DAL_RestaurantManager
                 return false;
             }
         }
+        public void XoaDangKyBanDat(int maDK)
+        {
+            //try
+            //{
+                connect.Open();
+                string query = "DELETE FROM DangKyBanDat WHERE maDK = @MaDK";
+                SqlCommand sqlCommand = new SqlCommand(query, connect);
+                sqlCommand.Parameters.AddWithValue("@MaDK", maDK);
+                sqlCommand.ExecuteNonQuery();
+                connect.Close();
+            //}
+            //catch (Exception ex)
+            //{
+                
+            //}
+            //finally
+            //{
+            //     connect.Close();
+            //}
+        }
+
     }
 }

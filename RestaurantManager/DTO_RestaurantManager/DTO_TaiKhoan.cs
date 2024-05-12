@@ -20,11 +20,12 @@ namespace DTO_RestaurantManager
         public DTO_TaiKhoan() 
         {
         }
-        public DTO_TaiKhoan(string username, string password, int loaiTaiKhoan)
+        public DTO_TaiKhoan(string username, string password, int loaiTaiKhoan, int nguoiDungId)
         {
             this.username = username;
             this.password = password;
             this.loaiTaiKhoan = loaiTaiKhoan;
+            this.nguoiDungId = nguoiDungId;
         }
         // Constructor với tham số
         public DTO_TaiKhoan(int id, string tenTaiKhoan, string username, string password, bool trangThai, int loaiTaiKhoan, int nguoiDungId)

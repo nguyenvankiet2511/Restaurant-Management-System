@@ -78,22 +78,22 @@
     <Compile Include="GUI_QuanTri.Designer.cs">
       <DependentUpon>GUI_QuanTri.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UC_DatBan.cs">
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_DatBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\UC_DatBan.Designer.cs">
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_DatBan.Designer.cs">
       <DependentUpon>UC_DatBan.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UC_DatMon.cs">
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_DatMon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\UC_DatMon.Designer.cs">
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_DatMon.Designer.cs">
       <DependentUpon>UC_DatMon.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UC_XemMonAn.cs">
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\UC_XemMonAn.Designer.cs">
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.Designer.cs">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.cs">
@@ -101,6 +101,12 @@
     </Compile>
     <Compile Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.Designer.cs">
       <DependentUpon>UC_DonDatBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_TiepTan\UC_QuanLyBan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_TiepTan\UC_QuanLyBan.Designer.cs">
+      <DependentUpon>UC_QuanLyBan.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="GUI_DangKi.resx">
       <DependentUpon>GUI_DangKi.cs</DependentUpon>
@@ -126,17 +132,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControls\UC_DatBan.resx">
+    <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatBan.resx">
       <DependentUpon>UC_DatBan.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_DatMon.resx">
+    <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatMon.resx">
       <DependentUpon>UC_DatMon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UC_XemMonAn.resx">
+    <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.resx">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.resx">
       <DependentUpon>UC_DonDatBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_TiepTan\UC_QuanLyBan.resx">
+      <DependentUpon>UC_QuanLyBan.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

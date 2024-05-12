@@ -37,6 +37,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "GUI_QuanTri";
             this.Text = "Hệ thống quản lý nhà hàng MICONET";
+            this.Load += new System.EventHandler(this.GUI_QuanTri_Load);
             this.ResumeLayout(false);
 
         }

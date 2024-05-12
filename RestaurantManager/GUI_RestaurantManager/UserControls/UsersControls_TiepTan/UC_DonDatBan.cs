@@ -14,12 +14,12 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
 {
     public partial class UC_DonDatBan : UserControl
     {
+        private GUI_NhanVienTiepTan gui_nvtt;
         public UC_DonDatBan()
         {
             InitializeComponent();
             LoadTables();
             AddColumns_DaChon();
-            ChangeHerderText();
         }
         public void LoadTables()
         {
@@ -27,7 +27,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             dataGVDonDatBan.DataSource = bus_DonDat.DanhSachDonDatBan();
             dataGVDonDatBan.RowTemplate.Height = 50; // Đặt chiều cao của mỗi dòng
             dataGVDonDatBan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            
+            ChangeHerderText();
             dataGVDonDatBan.Refresh();
         }
         public void ChangeHerderText()
@@ -38,6 +38,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             dataGVDonDatBan.Columns["ghiChu"].HeaderText = "Ghi Chú";
             dataGVDonDatBan.Columns["trangThai"].HeaderText = "Trạng thái";
             dataGVDonDatBan.Columns["thoiGian"].HeaderText = "Thời Gian";
+            dataGVDonDatBan.Columns["maKH"].HeaderText = "Mã Khách Hàng";
         }
         public void AddColumns_DaChon()
         {
@@ -47,6 +48,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             dataGVDonDaChon.Columns.Add("GhiChu", "Ghi Chú");
             dataGVDonDaChon.Columns.Add("TrangThai", "Trạng Thái");
             dataGVDonDaChon.Columns.Add("ThoiGian", "Thời Gian");
+            dataGVDonDaChon.Columns.Add("MaKH", "Mã Khách Hàng");
             dataGVDonDaChon.RowTemplate.Height = 50; // Đặt chiều cao của mỗi dòng
             dataGVDonDaChon.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGVDonDaChon.Refresh();
@@ -66,12 +68,13 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
                 string ghiChu = selectedRow.Cells["ghiChu"].Value.ToString();
                 bool trangThai = Convert.ToBoolean(selectedRow.Cells["trangThai"].Value);
                 DateTime thoiGian = Convert.ToDateTime(selectedRow.Cells["thoiGian"].Value);
+                int maKH = Convert.ToInt32(selectedRow.Cells["maKH"].Value);
 
                 // Tạo DTO_DangKyBanDat object từ dữ liệu lấy được
-                DTO_DangKyBanDat datBan = new DTO_DangKyBanDat(maDK, soLuongNguoi, viTri, ghiChu, trangThai, thoiGian);
+                DTO_DangKyBanDat datBan = new DTO_DangKyBanDat(maDK, soLuongNguoi, viTri, ghiChu, trangThai, thoiGian,maKH);
 
                 // Thêm dữ liệu vào dataGridView2
-                dataGVDonDaChon.Rows.Add(datBan.maDK, datBan.soLuongNguoi, datBan.viTri, datBan.ghiChu, datBan.trangThai, datBan.thoiGian);
+                dataGVDonDaChon.Rows.Add(datBan.maDK, datBan.soLuongNguoi, datBan.viTri, datBan.ghiChu, datBan.trangThai, datBan.thoiGian, datBan.maKH);
 
                 // Xóa dữ liệu từ nguồn dữ liệu của dataGridView1
                 List<DTO_DangKyBanDat> dataSource = (List<DTO_DangKyBanDat>)dataGVDonDatBan.DataSource;
@@ -99,9 +102,10 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
                 string ghiChu = selectedRow.Cells["GhiChu"].Value.ToString();
                 bool trangThai = Convert.ToBoolean(selectedRow.Cells["TrangThai"].Value);
                 DateTime thoiGian = Convert.ToDateTime(selectedRow.Cells["ThoiGian"].Value);
+                int maKH = Convert.ToInt32(selectedRow.Cells["MaKH"].Value);
 
                 // Tạo DTO_DangKyBanDat object từ dữ liệu lấy được
-                DTO_DangKyBanDat datBan = new DTO_DangKyBanDat(maDK, soLuongNguoi, viTri, ghiChu, trangThai, thoiGian);
+                DTO_DangKyBanDat datBan = new DTO_DangKyBanDat(maDK, soLuongNguoi, viTri, ghiChu, trangThai, thoiGian, maKH);
 
                 // Thêm dữ liệu vào nguồn dữ liệu của dataGridView1
                 List<DTO_DangKyBanDat> dataSource1 = (List<DTO_DangKyBanDat>)dataGVDonDatBan.DataSource;
@@ -117,5 +121,77 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             }
         }
 
+        private List<DTO_DangKyBanDat> LayDanhSachDaChon()
+        {
+            List<DTO_DangKyBanDat> danhSachDaChon = new List<DTO_DangKyBanDat>();
+
+            // Lặp qua từng dòng đã chọn trong DataGridView chứa các đơn đã chọn
+            foreach (DataGridViewRow selectedRow in dataGVDonDaChon.Rows)
+            {
+                if(!selectedRow.IsNewRow)
+                {
+                    //MessageBox.Show(selectedRow.Cells["GhiChu"].Value.ToString());
+                    int maDK = Convert.ToInt32(selectedRow.Cells["MaDK"].Value);
+                    int soLuongNguoi = Convert.ToInt32(selectedRow.Cells["SoLuongNguoi"].Value);
+                    int viTri = Convert.ToInt32(selectedRow.Cells["ViTri"].Value);
+                    string ghiChu = selectedRow.Cells["GhiChu"].Value.ToString();
+                    bool trangThai = Convert.ToBoolean(selectedRow.Cells["TrangThai"].Value);
+                    DateTime thoiGian = Convert.ToDateTime(selectedRow.Cells["ThoiGian"].Value);
+                    int maKH = Convert.ToInt32(selectedRow.Cells["MaKH"].Value);
+                    // Tạo DTO_DangKyBanDat từ thông tin của dòng đã chọn và thêm vào danh sách
+                    DTO_DangKyBanDat datBan = new DTO_DangKyBanDat(maDK, soLuongNguoi, viTri, ghiChu, trangThai, thoiGian, maKH);
+                    danhSachDaChon.Add(datBan);
+                }
+                else
+                {
+                    dataGVDonDaChon.Rows.Clear();
+                    return danhSachDaChon;
+                }           
+            }
+            return danhSachDaChon;
+        }
+
+        private void btnXacNhan_Click(object sender, EventArgs e)
+        {
+            BUS_BanDat bus_datBan = new BUS_BanDat();
+            BUS_DangKyBanDat bus_dangKyBanDat= new BUS_DangKyBanDat();
+            List<DTO_DangKyBanDat> dsdk = LayDanhSachDaChon();
+            foreach(DTO_DangKyBanDat d in dsdk)
+            {
+                DTO_BanDat banDat = new DTO_BanDat(d.soLuongNguoi,d.viTri,d.ghiChu,d.thoiGian, d.maKH, gui_nvtt.CurrentUser);
+                bool result= bus_datBan.themBanDat(banDat);
+                if (result)
+                {
+                    bus_dangKyBanDat.XoaDangKyBanDat(d.maDK);
+                    MessageBox.Show("Thành công: Đã thêm bàn đặt.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    LoadTables();
+                }
+                else
+                {
+                    MessageBox.Show("Lỗi: Không thể thêm bàn đặt.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    LoadTables();
+                }
+            }
+        }
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            BUS_DangKyBanDat bus_dangKyBanDat = new BUS_DangKyBanDat();
+            List<DTO_DangKyBanDat> dsdk = LayDanhSachDaChon();
+            int result=0;
+            foreach (DTO_DangKyBanDat d in dsdk)
+            {
+                bus_dangKyBanDat.XoaDangKyBanDat(d.maDK);
+                result++;
+            }
+            if(dsdk.Count == result) 
+            {
+                MessageBox.Show("Thành công: Đã xóa danh sách đăng ký được chọn.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else { MessageBox.Show("Lỗi: Không thể xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+        }
+        public void SetParentForm(GUI_NhanVienTiepTan form)
+        {
+            gui_nvtt = form;
+        }
     }
 }

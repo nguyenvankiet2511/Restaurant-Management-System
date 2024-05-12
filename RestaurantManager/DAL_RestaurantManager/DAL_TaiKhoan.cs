@@ -20,7 +20,7 @@ namespace DAL_RestaurantManager
             sqlDataReader = sqlCommand.ExecuteReader();
             while (sqlDataReader.Read())
             {
-               taiKhoan= new DTO_TaiKhoan(sqlDataReader.GetString(2),sqlDataReader.GetString(3), sqlDataReader.GetInt32(5));
+               taiKhoan= new DTO_TaiKhoan(sqlDataReader.GetString(2),sqlDataReader.GetString(3), sqlDataReader.GetInt32(5), sqlDataReader.GetInt32(6));
             }
             connect.Close();
             return taiKhoan;

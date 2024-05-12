@@ -13,9 +13,11 @@ namespace GUI_RestaurantManager
 {
     public partial class GUI_NhanVienTiepTan : Form
     {
+        public int CurrentUser { get; set; }
         public GUI_NhanVienTiepTan()
         {
             InitializeComponent();
+           
         }
         public void addUserControl(UserControl userControl)
         {
@@ -27,7 +29,21 @@ namespace GUI_RestaurantManager
         private void btnDonDatBan_Click(object sender, EventArgs e)
         {
             UC_DonDatBan uC_DonDatBan = new UC_DonDatBan();
+            uC_DonDatBan.SetParentForm(this);
             addUserControl(uC_DonDatBan);
+
+        }
+
+        private void GUI_NhanVienTiepTan_Load(object sender, EventArgs e)
+        {
+            label1.Text = CurrentUser.ToString();
+        }
+
+        private void btnQLBanAn_Click(object sender, EventArgs e)
+        {
+            UC_QuanLyBan uC_QuanLyBan = new UC_QuanLyBan();
+            uC_QuanLyBan.SetParentForm(this);
+            addUserControl(uC_QuanLyBan);
         }
     }
 }

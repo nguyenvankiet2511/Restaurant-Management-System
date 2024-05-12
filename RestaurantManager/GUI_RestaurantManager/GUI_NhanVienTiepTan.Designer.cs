@@ -79,6 +79,7 @@
             this.btnQLBanAn.TabIndex = 1;
             this.btnQLBanAn.Text = "Quản lý bàn ăn";
             this.btnQLBanAn.UseVisualStyleBackColor = true;
+            this.btnQLBanAn.Click += new System.EventHandler(this.btnQLBanAn_Click);
             // 
             // btnDonDatBan
             // 
@@ -123,6 +124,7 @@
             this.Name = "GUI_NhanVienTiepTan";
             this.Text = "Hệ thống quản lý nhà hàng MICONET";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.GUI_NhanVienTiepTan_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 

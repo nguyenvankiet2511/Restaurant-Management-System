@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DTO_Ban.cs" />
+    <Compile Include="DTO_BanDat.cs" />
     <Compile Include="DTO_DangKyBanDat.cs" />
     <Compile Include="DTO_ChiTietHoaDon.cs" />
     <Compile Include="DTO_DonHang.cs" />

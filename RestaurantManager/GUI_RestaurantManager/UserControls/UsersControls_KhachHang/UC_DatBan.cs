@@ -13,8 +13,9 @@ using System;
 
 namespace GUI_RestaurantManager.UserControls
 {
-    public partial class UC_DatBan : UserControl
+    public partial class UC_DatBan : UserControl 
     {
+        private GUI_KhachHang gui_KH;
         public UC_DatBan()
         {
             InitializeComponent();
@@ -82,8 +83,8 @@ namespace GUI_RestaurantManager.UserControls
                 string ghiChu = txtGhiChu.Text;
                 int viTri = int.Parse(lbMaBan.Text);
                 DateTime thoiGian = dateThoiGian.Value;
-
-                DTO_DangKyBanDat banDat = new DTO_DangKyBanDat(soLuong, viTri, ghiChu, thoiGian);
+                int maKH = gui_KH.CurrentUser;
+                DTO_DangKyBanDat banDat = new DTO_DangKyBanDat(soLuong, viTri, ghiChu, thoiGian, maKH);
                 bool result = bus_datBan.themDKBanDat(banDat);
 
                 if (result)
@@ -110,6 +111,10 @@ namespace GUI_RestaurantManager.UserControls
             txtGhiChu.Text = "";
             lbBan.Text = "Chọn bàn";
             lbMaBan.Text = "";
+        }
+        public void SetParentForm(GUI_KhachHang form)
+        {
+            gui_KH = form;
         }
     }
 }

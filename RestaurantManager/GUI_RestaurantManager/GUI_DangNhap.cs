@@ -14,6 +14,7 @@ namespace GUI_RestaurantManager
 {
     public partial class GUI_DangNhap : Form
     {
+        
         BUS_DangNhap bus_DangNhap= new BUS_DangNhap();
         public GUI_DangNhap()
         {
@@ -44,12 +45,16 @@ namespace GUI_RestaurantManager
                         case 1:
                             this.Hide();
                             GUI_QuanTri quantri = new GUI_QuanTri();
+                            quantri.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
+                            MessageBox.Show(quantri.CurrentUser.ToString());
                             quantri.ShowDialog();
                             this.Close();
                             break;
                         case 2:
                             this.Hide();
                             GUI_NhanVienTiepTan nhanVienTT= new GUI_NhanVienTiepTan();
+                            nhanVienTT.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
+                            MessageBox.Show(nhanVienTT.CurrentUser.ToString() );
                             nhanVienTT.ShowDialog();
                             this.Close();
                             break;
@@ -60,6 +65,8 @@ namespace GUI_RestaurantManager
                         case 5:
                             this.Hide();
                             GUI_KhachHang khachHang = new GUI_KhachHang();
+                            khachHang.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
+                            MessageBox.Show(khachHang.CurrentUser.ToString());
                             khachHang.ShowDialog();
                             this.Close();
                             break;

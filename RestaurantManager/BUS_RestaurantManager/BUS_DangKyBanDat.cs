@@ -20,5 +20,9 @@ namespace BUS_RestaurantManager
         {
           return  dal_banDat.DanhSachDonBanDat();
         }
+        public void XoaDangKyBanDat( int maDK)
+        {
+            dal_banDat.XoaDangKyBanDat(maDK);
+        }
     }
 }
