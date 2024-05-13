@@ -151,7 +151,6 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             BUS_Ban bus_ban = new BUS_Ban();
             int maKH = bus_nguoiDung.ThemNguoiDung(nguoiDung);
             bool result_themKH = bus_khachHang.ThemKhachHang(maKH);
-            MessageBox.Show(maKH.ToString());
             if (result_themKH) 
             {
                 bool result = bus_banDat.ThemBanDat_KHMoi(banDat, maKH);

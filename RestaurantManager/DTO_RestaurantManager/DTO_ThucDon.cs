@@ -13,6 +13,7 @@ namespace DTO_RestaurantManager
         public int soLuong { get; set; }
         public string ghiChu { get; set; }
         public int maMonAn { get; set; }
+        public int maBanDat {  get; set; }
 
         // Constructor không tham số
         public DTO_ThucDon()
@@ -20,13 +21,12 @@ namespace DTO_RestaurantManager
         }
 
         // Constructor với tham số
-        public DTO_ThucDon(int maThucDon, string tenMon, int soLuong, string ghiChu, int maMonAn)
+        public DTO_ThucDon( string tenMon, int soLuong,  int maMonAn, int maBanDat)
         {
-            this.maThucDon = maThucDon;
             this.tenMon = tenMon;
             this.soLuong = soLuong;
-            this.ghiChu = ghiChu;
             this.maMonAn = maMonAn;
+            this.maBanDat = maBanDat;
         }
 
     }

@@ -53,6 +53,7 @@
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtKey = new System.Windows.Forms.TextBox();
             this.dataGVNhanVien = new System.Windows.Forms.DataGridView();
+            this.lbChucVu = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGVNhanVien)).BeginInit();
@@ -210,6 +211,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lbChucVu);
             this.groupBox2.Controls.Add(this.dateNamSinh);
             this.groupBox2.Controls.Add(this.txtEmail);
             this.groupBox2.Controls.Add(this.label6);
@@ -301,6 +303,15 @@
             this.dataGVNhanVien.TabIndex = 9;
             this.dataGVNhanVien.Click += new System.EventHandler(this.dataGVNhanVien_Click);
             // 
+            // lbChucVu
+            // 
+            this.lbChucVu.AutoSize = true;
+            this.lbChucVu.Location = new System.Drawing.Point(828, 100);
+            this.lbChucVu.Name = "lbChucVu";
+            this.lbChucVu.Size = new System.Drawing.Size(0, 25);
+            this.lbChucVu.TabIndex = 20;
+            this.lbChucVu.Visible = false;
+            // 
             // UC_QLNhanVien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -346,5 +357,6 @@
         private System.Windows.Forms.DateTimePicker dateNamSinh;
         private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lbChucVu;
     }
 }

@@ -54,5 +54,6 @@ namespace DTO_RestaurantManager
             this.maKH = maKH;
             this.maNV = maNV;
         }
+
     }
 }

@@ -124,5 +124,45 @@ namespace DAL_RestaurantManager
             }             
             return false;       
         }
+        public List<DTO_BanDat> LayDanhSachBanDatKH(int maKH)
+        {
+            List<DTO_BanDat> danhSachBanDat = new List<DTO_BanDat>();
+
+            try
+            {
+                connect.Open();
+
+                string query = "SELECT * FROM BanDat WHERE maKH = @MaKH";
+                sqlCommand = new SqlCommand(query, connect);
+                sqlCommand.Parameters.AddWithValue("@MaKH", maKH);
+
+                sqlDataReader= sqlCommand.ExecuteReader();
+
+                while (sqlDataReader.Read())
+                {
+                    DTO_BanDat banDat = new DTO_BanDat(
+                        sqlDataReader.GetInt32(0), // MaBanDat
+                        sqlDataReader.GetInt32(1), // SoLuongNguoi
+                        sqlDataReader.GetInt32(2), // ViTri
+                        sqlDataReader.GetDateTime(5), // ThoiGian   
+                        sqlDataReader.GetInt32(6) ,// MaNVTT
+                        maKH // MaKH
+                    );
+
+                    danhSachBanDat.Add(banDat);
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                connect.Close();
+            }
+
+            return danhSachBanDat;
+        }
+
     }
 }

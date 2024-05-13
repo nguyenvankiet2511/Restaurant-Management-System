@@ -89,37 +89,41 @@ namespace DAL_RestaurantManager
         }
         public DataTable LayDanhSachNhanVien()
         {
-            string query = @"SELECT 
-                    ND.idNguoiDung,
-                    ND.ten_nguoi_dung,
-                    ND.email,
-                    ND.namSinh,
-                    ND.soDienThoai,
-                    ND.diaChi,
-                    CASE 
-                        WHEN NVTT.maNVTT IS NOT NULL THEN NVTT.bangCap
-                        WHEN NVTN.maNVTN IS NOT NULL THEN NVTN.bangCap
-                        WHEN NVSale.maNVSale IS NOT NULL THEN NVSale.bangCap
-                        WHEN QTV.maQTV IS NOT NULL THEN N'Quản trị viên'
-                    END AS bangCap,
-                    TK.loaiTaiKhoan
-                FROM 
-                    NguoiDung ND
-                LEFT JOIN 
-                    TaiKhoan TK ON ND.idNguoiDung = TK.nguoiDung_id
-                LEFT JOIN 
-                    NhanVienTiepTan NVTT ON ND.idNguoiDung = NVTT.maNVTT
-                LEFT JOIN 
-                    NhanVienThuNgan NVTN ON ND.idNguoiDung = NVTN.maNVTN
-                LEFT JOIN 
-                    NhanVienSale NVSale ON ND.idNguoiDung = NVSale.maNVSale
-                LEFT JOIN 
-                    QuanTriVien QTV ON ND.idNguoiDung = QTV.maQTV
-                WHERE 
-                    NVTT.maNVTT IS NOT NULL 
-                    OR NVTN.maNVTN IS NOT NULL 
-                    OR NVSale.maNVSale IS NOT NULL 
-                    OR QTV.maQTV IS NOT NULL;";
+            string query = @"
+                            SELECT 
+                                ND.idNguoiDung,
+                                ND.ten_nguoi_dung,
+                                ND.email,
+                                ND.namSinh,
+                                ND.soDienThoai,
+                                ND.diaChi,
+                                CASE 
+                                    WHEN NVTT.maNVTT IS NOT NULL THEN NVTT.bangCap
+                                    WHEN NVTN.maNVTN IS NOT NULL THEN NVTN.bangCap
+                                    WHEN NVSale.maNVSale IS NOT NULL THEN NVSale.bangCap
+                                    WHEN QTV.maQTV IS NOT NULL THEN N'Quản trị viên'
+                                END AS bangCap,
+                                CASE 
+                                    WHEN NVTT.maNVTT IS NOT NULL THEN NVTT.chucVu
+                                    WHEN NVTN.maNVTN IS NOT NULL THEN NVTN.chucVu
+                                    WHEN NVSale.maNVSale IS NOT NULL THEN NVSale.chucVu
+                                    WHEN QTV.maQTV IS NOT NULL THEN QTV.chucVu
+                                END AS chucVu
+                            FROM 
+                                NguoiDung ND
+                            LEFT JOIN 
+                                NhanVienTiepTan NVTT ON ND.idNguoiDung = NVTT.maNVTT
+                            LEFT JOIN 
+                                NhanVienThuNgan NVTN ON ND.idNguoiDung = NVTN.maNVTN
+                            LEFT JOIN 
+                                NhanVienSale NVSale ON ND.idNguoiDung = NVSale.maNVSale
+                            LEFT JOIN 
+                                QuanTriVien QTV ON ND.idNguoiDung = QTV.maQTV
+                            WHERE 
+                                NVTT.maNVTT IS NOT NULL 
+                                OR NVTN.maNVTN IS NOT NULL 
+                                OR NVSale.maNVSale IS NOT NULL 
+                                OR QTV.maQTV IS NOT NULL;";
             connect.Open();
             SqlDataAdapter adapter = new SqlDataAdapter(query,connect);
             DataTable nhanVien = new DataTable();

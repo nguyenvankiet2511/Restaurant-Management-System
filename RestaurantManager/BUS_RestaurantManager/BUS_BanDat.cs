@@ -32,6 +32,10 @@ namespace BUS_RestaurantManager
         {
             return dal_banDat.XoaBanDat(maBanDat);
         }
+        public List<DTO_BanDat> danhSachBanDatKH(int maKH)
+        {
+            return dal_banDat.LayDanhSachBanDatKH(maKH);
+        }
 
     }
 }

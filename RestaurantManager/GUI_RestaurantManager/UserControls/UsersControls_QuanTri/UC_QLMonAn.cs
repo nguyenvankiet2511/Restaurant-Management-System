@@ -19,9 +19,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
         {
             InitializeComponent();
             LoadDvgMonAn();
-        }
-
-        
+        }    
         public void LoadDvgMonAn()
         {
             dataGVMonAn.DataSource = bus_monAn.getListMonAn();
@@ -36,13 +34,9 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
 
         private void dataGVMonAn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("rrrrr");
             if (dataGVMonAn.CurrentRow != null)
             {
-                // Lấy hàng hiện tại được chọn trong DataGridView
                 DataGridViewRow row = dataGVMonAn.CurrentRow;
-
-                // Lấy dữ liệu từ các cột của hàng được chọn và đổ vào các ô TextBox tương ứng
                 txtMaMon.Text = row.Cells["maMonAn"].Value.ToString();
                 txtTenMon.Text = row.Cells["tenMon"].Value.ToString();
                 txtMota.Text = row.Cells["moTa"].Value.ToString();

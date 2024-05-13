@@ -14,6 +14,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
 {
     public partial class UC_QLNhanVien : UserControl
     {
+        private int loaiTaiKhoan;
         BUS_NguoiDung bus_nguoiDung= new BUS_NguoiDung();
         BUS_NhanVien bus_nhanVien= new BUS_NhanVien();
         public UC_QLNhanVien()
@@ -33,7 +34,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
             dataGVNhanVien.Columns["soDienThoai"].HeaderText = "Số điện thoại";
             dataGVNhanVien.Columns["diaChi"].HeaderText = "Địa chỉ";
             dataGVNhanVien.Columns["bangCap"].HeaderText = "Bằng cấp";
-            dataGVNhanVien.Columns["loaiTaiKhoan"].HeaderText = "Loại tài khoản";
+            dataGVNhanVien.Columns["chucVu"].HeaderText = "Loại tài khoản";
             dataGVNhanVien.Refresh();
         }
 
@@ -52,7 +53,8 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
                 txtSoDienThoai.Text = row.Cells["soDienThoai"].Value.ToString();
                 txtDiaChi.Text = row.Cells["diaChi"].Value.ToString();
                 txtBangCap.Text = row.Cells["bangCap"].Value.ToString();
-                txtChucVu.Text = row.Cells["loaiTaiKhoan"].Value.ToString();
+                txtChucVu.Text = row.Cells["chucVu"].Value.ToString();
+                loaiTaiKhoan = Convert.ToInt32(txtChucVu.Text);
             }
         }
       
@@ -64,22 +66,22 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
             string soDienThoai = txtSoDienThoai.Text;
             string diaChi = txtDiaChi.Text;
             string bangCap = txtBangCap.Text;
-            int loaiTaiKhoan = Convert.ToInt32(txtChucVu.Text);
+            int chucVu = Convert.ToInt32(txtChucVu.Text);
             DTO_NguoiDung nguoiDung = new DTO_NguoiDung( tenNhanVien, email, namSinh, soDienThoai, diaChi);
             int maNhanVienMoi = bus_nguoiDung.ThemNguoiDungMoi(nguoiDung);
             bool result_nhanVien = false;
-            switch (loaiTaiKhoan)
+            switch (chucVu)
             {
                 case 2:
-                    DTO_NhanVienTiepTan nhanVien = new DTO_NhanVienTiepTan(maNhanVienMoi, bangCap);
+                    DTO_NhanVienTiepTan nhanVien = new DTO_NhanVienTiepTan(maNhanVienMoi, bangCap,chucVu);
                     result_nhanVien = bus_nhanVien.ThemNhanVienTiepTan(nhanVien);
                     break;
                 case 3:
-                    DTO_NhanVienThuNgan nhanVienTN = new DTO_NhanVienThuNgan(maNhanVienMoi, bangCap);
+                    DTO_NhanVienThuNgan nhanVienTN = new DTO_NhanVienThuNgan(maNhanVienMoi, bangCap,chucVu);
                     result_nhanVien = bus_nhanVien.ThemNhanVienThuNgan(nhanVienTN);
                     break;
                 case 4:
-                    DTO_NhanVienSale nhanVienSale = new DTO_NhanVienSale(maNhanVienMoi, bangCap);
+                    DTO_NhanVienSale nhanVienSale = new DTO_NhanVienSale(maNhanVienMoi, bangCap, chucVu);
                     result_nhanVien = bus_nhanVien.ThemNhanVienSale(nhanVienSale);
                     break;
             }
@@ -101,7 +103,6 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
             string soDienThoai= txtSoDienThoai.Text;
             string diaChi= txtDiaChi.Text;
             string bangCap= txtBangCap.Text;
-            int loaiTaiKhoan= Convert.ToInt32(txtChucVu.Text);
             DTO_NguoiDung nguoiDung= new DTO_NguoiDung(maNhanVien,tenNhanVien,email,namSinh,soDienThoai,diaChi);
             bool result= bus_nguoiDung.CapNhatThongTinNhanVien(nguoiDung);
             bool result_nhanVien = false;
@@ -133,7 +134,6 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
         private void btnDelete_Click(object sender, EventArgs e)
         {
             int maNhanVien = Convert.ToInt32(txtMaNhanVien.Text);
-            int loaiTaiKhoan = Convert.ToInt32(txtChucVu.Text);
             bool result = false;
             if (bus_nguoiDung.XoaNguoiDung(maNhanVien))
             {

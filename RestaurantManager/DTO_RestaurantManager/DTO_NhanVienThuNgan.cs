@@ -23,5 +23,11 @@ namespace DTO_RestaurantManager
             this.maNVTN = maNVTN;
             this.bangCap = bangCap;
         }
+        public DTO_NhanVienThuNgan(int maNVTN, string bangCap, int chucVu)
+        {
+            this.maNVTN = maNVTN;
+            this.bangCap = bangCap;
+            this.chucVu = chucVu;   
+        }
     }
 }

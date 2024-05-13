@@ -87,13 +87,13 @@ namespace DAL_RestaurantManager
         {
             try
             {
-                string query = @"INSERT INTO NhanVienTiepTan (maNVTT, bangCap) 
-                         VALUES (@maNVTT, @bangCap)";
+                string query = @"INSERT INTO NhanVienTiepTan (maNVTT, bangCap,chucVu) 
+                         VALUES (@maNVTT, @bangCap,@chucVu)";
 
                 sqlCommand = new SqlCommand(query, connect);
                 sqlCommand.Parameters.AddWithValue("@maNVTT", nhanVienTiepTan.maNVTT);
                 sqlCommand.Parameters.AddWithValue("@bangCap", nhanVienTiepTan.bangCap);
-
+                sqlCommand.Parameters.AddWithValue("@chucVu", nhanVienTiepTan.chucVu);
                 connect.Open();
                 int rowsAffected = sqlCommand.ExecuteNonQuery();
                 connect.Close();
@@ -110,12 +110,13 @@ namespace DAL_RestaurantManager
         {
             try
             {
-                string query = @"INSERT INTO NhanVienSale (maNVSale, bangCap) 
-                         VALUES (@maNVSale, @bangCap)";
+                string query = @"INSERT INTO NhanVienSale (maNVSale, bangCap,chucVu) 
+                         VALUES (@maNVSale, @bangCap,@chucVu)";
 
                 sqlCommand = new SqlCommand(query, connect);
                 sqlCommand.Parameters.AddWithValue("@maNVSale", nhanVienSale.maNVSale);
                 sqlCommand.Parameters.AddWithValue("@bangCap", nhanVienSale.bangCap);
+                sqlCommand.Parameters.AddWithValue("@chucVu", nhanVienSale.chucVu);
 
                 connect.Open();
                 int rowsAffected = sqlCommand.ExecuteNonQuery();
@@ -135,11 +136,12 @@ namespace DAL_RestaurantManager
         {
             try
             {
-                string query = @"INSERT INTO NhanVienThuNgan (maNVTN, bangCap) 
-                         VALUES (@maNVTN, @bangCap)";
+                string query = @"INSERT INTO NhanVienThuNgan (maNVTN, bangCap, chucVu) 
+                         VALUES (@maNVTN, @bangCap,@chucVu)";
                 sqlCommand = new SqlCommand(query, connect);
                 sqlCommand.Parameters.AddWithValue("@maNVTN", nhanVienThuNgan.maNVTN);
                 sqlCommand.Parameters.AddWithValue("@bangCap", nhanVienThuNgan.bangCap);
+                sqlCommand.Parameters.AddWithValue("@chucVu", nhanVienThuNgan.chucVu);
                 connect.Open();
                 int rowsAffected = sqlCommand.ExecuteNonQuery();
                 connect.Close();

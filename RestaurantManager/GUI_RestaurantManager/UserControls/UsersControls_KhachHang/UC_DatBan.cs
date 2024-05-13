@@ -23,6 +23,7 @@ namespace GUI_RestaurantManager.UserControls
         }
         private void LoadTables()
         {
+            
             panelBan.Refresh();
             BUS_Ban bus_Ban = new BUS_Ban();
             List<DTO_Ban> listBan = bus_Ban.getListBan();
@@ -83,7 +84,7 @@ namespace GUI_RestaurantManager.UserControls
                 string ghiChu = txtGhiChu.Text;
                 int viTri = int.Parse(lbMaBan.Text);
                 DateTime thoiGian = dateThoiGian.Value;
-                int maKH = gui_KH.CurrentUser;
+                int maKH = gui_KH.CurrentUserKH;
                 DTO_DangKyBanDat banDat = new DTO_DangKyBanDat(soLuong, viTri, ghiChu, thoiGian, maKH);
                 bool result = bus_datBan.themDKBanDat(banDat);
 
