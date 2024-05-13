@@ -36,6 +36,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
 
         private void dataGVMonAn_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("rrrrr");
             if (dataGVMonAn.CurrentRow != null)
             {
                 // Lấy hàng hiện tại được chọn trong DataGridView
@@ -127,6 +128,13 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
             dataGVMonAn.Columns["moTa"].HeaderText = "Mô Tả Món";
             dataGVMonAn.Columns["giaMon"].HeaderText = "Giá($)";
             dataGVMonAn.Refresh();
+        }
+
+       
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

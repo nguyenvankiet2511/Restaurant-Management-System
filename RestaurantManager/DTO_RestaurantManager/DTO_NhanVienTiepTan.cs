@@ -10,6 +10,7 @@ namespace DTO_RestaurantManager
     {
         public int maNVTT { get; set; }
         public string bangCap { get; set; }
+        public int chucVu { get; set; }
 
         // Constructor không tham số
         public DTO_NhanVienTiepTan()

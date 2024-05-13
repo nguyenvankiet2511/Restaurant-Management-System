@@ -9,6 +9,7 @@ namespace DTO_RestaurantManager
     public class DTO_QuanTriVien
     {
         public int maQTV { get; set; }
+        public int chucVu { get; set; }
 
         // Constructor không tham số
         public DTO_QuanTriVien()

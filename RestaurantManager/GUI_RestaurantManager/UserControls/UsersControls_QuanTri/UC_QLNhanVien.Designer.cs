@@ -33,7 +33,6 @@
             this.btnAdd = new System.Windows.Forms.Button();
             this.txtDiaChi = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtNamSinh = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
@@ -47,9 +46,12 @@
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dateNamSinh = new System.Windows.Forms.DateTimePicker();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.txtKey = new System.Windows.Forms.TextBox();
             this.btnSearch = new System.Windows.Forms.Button();
+            this.txtKey = new System.Windows.Forms.TextBox();
             this.dataGVNhanVien = new System.Windows.Forms.DataGridView();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -65,6 +67,7 @@
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "Xóa nhân viên";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -75,6 +78,7 @@
             this.btnUpdate.TabIndex = 9;
             this.btnUpdate.Text = " Sửa thông tin";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -85,6 +89,7 @@
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Thêm nhân viên";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // txtDiaChi
             // 
@@ -101,13 +106,6 @@
             this.label5.Size = new System.Drawing.Size(93, 33);
             this.label5.TabIndex = 6;
             this.label5.Text = "Địa chỉ:";
-            // 
-            // txtNamSinh
-            // 
-            this.txtNamSinh.Location = new System.Drawing.Point(103, 104);
-            this.txtNamSinh.Name = "txtNamSinh";
-            this.txtNamSinh.Size = new System.Drawing.Size(192, 33);
-            this.txtNamSinh.TabIndex = 5;
             // 
             // label4
             // 
@@ -212,6 +210,9 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.dateNamSinh);
+            this.groupBox2.Controls.Add(this.txtEmail);
+            this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.txtChucVu);
             this.groupBox2.Controls.Add(this.txtSoDienThoai);
             this.groupBox2.Controls.Add(this.label7);
@@ -224,7 +225,6 @@
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.btnDelete);
-            this.groupBox2.Controls.Add(this.txtNamSinh);
             this.groupBox2.Controls.Add(this.btnUpdate);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.btnAdd);
@@ -237,6 +237,29 @@
             this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             // 
+            // dateNamSinh
+            // 
+            this.dateNamSinh.Location = new System.Drawing.Point(103, 102);
+            this.dateNamSinh.Name = "dateNamSinh";
+            this.dateNamSinh.Size = new System.Drawing.Size(192, 33);
+            this.dateNamSinh.TabIndex = 19;
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(395, 144);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(192, 33);
+            this.txtEmail.TabIndex = 18;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(305, 148);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(93, 33);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "Email:";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
@@ -248,14 +271,6 @@
             this.panel1.Size = new System.Drawing.Size(949, 46);
             this.panel1.TabIndex = 8;
             // 
-            // txtKey
-            // 
-            this.txtKey.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtKey.Location = new System.Drawing.Point(38, 13);
-            this.txtKey.Name = "txtKey";
-            this.txtKey.Size = new System.Drawing.Size(200, 33);
-            this.txtKey.TabIndex = 0;
-            // 
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -265,6 +280,14 @@
             this.btnSearch.TabIndex = 9;
             this.btnSearch.Text = "Tìm kiếm";
             this.btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // txtKey
+            // 
+            this.txtKey.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtKey.Location = new System.Drawing.Point(38, 13);
+            this.txtKey.Name = "txtKey";
+            this.txtKey.Size = new System.Drawing.Size(200, 33);
+            this.txtKey.TabIndex = 0;
             // 
             // dataGVNhanVien
             // 
@@ -276,6 +299,7 @@
             this.dataGVNhanVien.RowTemplate.Height = 24;
             this.dataGVNhanVien.Size = new System.Drawing.Size(949, 371);
             this.dataGVNhanVien.TabIndex = 9;
+            this.dataGVNhanVien.Click += new System.EventHandler(this.dataGVNhanVien_Click);
             // 
             // UC_QLNhanVien
             // 
@@ -302,7 +326,6 @@
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.TextBox txtDiaChi;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox txtNamSinh;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtMaNhanVien;
@@ -320,5 +343,8 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.TextBox txtKey;
         private System.Windows.Forms.DataGridView dataGVNhanVien;
+        private System.Windows.Forms.DateTimePicker dateNamSinh;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Label label6;
     }
 }

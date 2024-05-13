@@ -2,6 +2,7 @@
 using DTO_RestaurantManager;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,22 @@ namespace BUS_RestaurantManager
         public int ThemNguoiDung(DTO_NguoiDung nguoiDung)
         {
             return dal_nguoiDung.ThemNguoiDung(nguoiDung) ;
+        }
+        public DataTable LayDanhSachNhanVien()
+        {
+            return dal_nguoiDung.LayDanhSachNhanVien();
+        }
+        public bool CapNhatThongTinNhanVien(DTO_NguoiDung nguoiDung)
+        {
+            return dal_nguoiDung.CapNhatThongTinNhanVien(nguoiDung);
+        }
+        public int ThemNguoiDungMoi(DTO_NguoiDung nguoiDung)
+        {
+            return dal_nguoiDung.ThemNguoiDungMoi(nguoiDung);
+        }
+        public bool XoaNguoiDung(int maNguoiDung)
+        {
+            return dal_nguoiDung.XoaNguoiDung(maNguoiDung);
         }
     }
 }
