@@ -52,6 +52,7 @@
             this.groupBox1.Size = new System.Drawing.Size(237, 681);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnDangXuat
             // 
@@ -61,6 +62,7 @@
             this.btnDangXuat.TabIndex = 3;
             this.btnDangXuat.Text = "Đăng xuất";
             this.btnDangXuat.UseVisualStyleBackColor = true;
+            this.btnDangXuat.Click += new System.EventHandler(this.btnDangXuat_Click);
             // 
             // btnXemThongTin
             // 
@@ -70,6 +72,7 @@
             this.btnXemThongTin.TabIndex = 2;
             this.btnXemThongTin.Text = "Xem thông tin";
             this.btnXemThongTin.UseVisualStyleBackColor = true;
+            this.btnXemThongTin.Click += new System.EventHandler(this.btnXemThongTin_Click);
             // 
             // btnQLBanAn
             // 
@@ -101,6 +104,7 @@
             this.label1.Size = new System.Drawing.Size(1191, 100);
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panelTiepTan
             // 
@@ -112,6 +116,7 @@
             this.panelTiepTan.Name = "panelTiepTan";
             this.panelTiepTan.Size = new System.Drawing.Size(1191, 581);
             this.panelTiepTan.TabIndex = 3;
+            this.panelTiepTan.Paint += new System.Windows.Forms.PaintEventHandler(this.panelTiepTan_Paint);
             // 
             // GUI_NhanVienTiepTan
             // 

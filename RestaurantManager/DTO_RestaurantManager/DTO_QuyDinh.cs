@@ -8,9 +8,9 @@ namespace DTO_RestaurantManager
 {
     public class DTO_QuyDinh
     {
-        private int maQuyDinh { get; set; }
-        private string tenQuyDinh { get; set;}
-        private int giaTri {  get; set; }
+        public int maQuyDinh { get; set; }
+        public string tenQuyDinh { get; set;}
+        public int giaTri {  get; set; }
         //public int QUYDINH_maQuyDinh
         //{
         //    get { return _QD_maQuyDinh; }

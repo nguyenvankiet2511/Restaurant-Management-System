@@ -64,6 +64,18 @@
     <Compile Include="GUI_KhachHang.Designer.cs">
       <DependentUpon>GUI_KhachHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_NhanVienSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_NhanVienSale.Designer.cs">
+      <DependentUpon>GUI_NhanVienSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI_NhanVienThuNgan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_NhanVienThuNgan.Designer.cs">
+      <DependentUpon>GUI_NhanVienThuNgan.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI_NhanVienTiepTan.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,12 @@
     <Compile Include="UserControls\UsersControls_KhachHang\UC_DatBan.Designer.cs">
       <DependentUpon>UC_DatBan.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_DatHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_DatHang.Designer.cs">
+      <DependentUpon>UC_DatHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UsersControls_KhachHang\UC_DatMon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -95,6 +113,18 @@
     </Compile>
     <Compile Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.Designer.cs">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_LapHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_LapHoaDon.Designer.cs">
+      <DependentUpon>UC_LapHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.Designer.cs">
+      <DependentUpon>UC_ThanhToanHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.cs">
       <SubType>UserControl</SubType>
@@ -141,6 +171,9 @@
     <EmbeddedResource Include="GUI_KhachHang.resx">
       <DependentUpon>GUI_KhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_NhanVienThuNgan.resx">
+      <DependentUpon>GUI_NhanVienThuNgan.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_NhanVienTiepTan.resx">
       <DependentUpon>GUI_NhanVienTiepTan.cs</DependentUpon>
     </EmbeddedResource>
@@ -159,11 +192,20 @@
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatBan.resx">
       <DependentUpon>UC_DatBan.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatHang.resx">
+      <DependentUpon>UC_DatHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatMon.resx">
       <DependentUpon>UC_DatMon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.resx">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_LapHoaDon.resx">
+      <DependentUpon>UC_LapHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.resx">
+      <DependentUpon>UC_ThanhToanHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.resx">
       <DependentUpon>UC_QLMonAn.cs</DependentUpon>
@@ -200,5 +242,6 @@
       <Name>DTO_RestaurantManager</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

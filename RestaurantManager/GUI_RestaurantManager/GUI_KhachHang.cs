@@ -1,4 +1,5 @@
 ﻿using GUI_RestaurantManager.UserControls;
+using GUI_RestaurantManager.UserControls.UsersControls_KhachHang;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -53,6 +54,11 @@ namespace GUI_RestaurantManager
 
         }
 
-      
+        private void menuDatHang_Click(object sender, EventArgs e)
+        {
+            UC_DatHang uc_datHang = new UC_DatHang();
+            uc_datHang.SetFormParent(this);
+            addUserControl(uc_datHang);
+        }
     }
 }

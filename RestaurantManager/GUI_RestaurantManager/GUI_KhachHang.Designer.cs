@@ -99,6 +99,7 @@
             this.menuDatHang.Name = "menuDatHang";
             this.menuDatHang.Size = new System.Drawing.Size(119, 46);
             this.menuDatHang.Text = "Đặt hàng";
+            this.menuDatHang.Click += new System.EventHandler(this.menuDatHang_Click);
             // 
             // liênHệToolStripMenuItem
             // 

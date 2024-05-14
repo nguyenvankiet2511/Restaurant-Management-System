@@ -14,6 +14,8 @@ namespace DTO_RestaurantManager
         public string moTa { get; set; }
         public float thanhTien { get; set; }
         public int maNVTN { get; set; }
+         
+        public int maBanDat {  get; set; }
 
         // Constructor không tham số
         public DTO_HoaDon()

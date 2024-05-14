@@ -40,3 +40,7 @@ C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_Restau
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_TiepTan.UC_QuanLyBan.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_QuanTri.UC_QLMonAn.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_QuanTri.UC_QLNhanVien.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_KhachHang.UC_DatHang.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.GUI_NhanVienThuNgan.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan.UC_LapHoaDon.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan.UC_ThanhToanHoaDon.resources

@@ -11,6 +11,7 @@ namespace DTO_RestaurantManager
         public int maDonHang { get; set; }
         public bool trangThai { get; set; }
         public DateTime ngayDat { get; set; }
+        public DateTime ngayXacNhan { get; set; }   
         public int maKH { get; set; }
         public int maNVSale { get; set; }
         public int maMonAn { get; set; }
@@ -19,7 +20,7 @@ namespace DTO_RestaurantManager
         public DTO_DonHang()
         {
             // Khởi tạo ngày đặt là ngày hiện tại
-            this.ngayDat = DateTime.Now;
+            this.ngayXacNhan = DateTime.Now;
         }
 
         // Constructor với tham số

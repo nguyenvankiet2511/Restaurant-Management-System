@@ -45,5 +45,30 @@ namespace GUI_RestaurantManager
             uC_QuanLyBan.SetParentForm(this);
             addUserControl(uC_QuanLyBan);
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnXemThongTin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelTiepTan_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -120,10 +120,8 @@ namespace GUI_RestaurantManager.UserControls
         }
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            // Kiểm tra xem có hàng nào được chọn không
             if (dataGVMonDaChon.SelectedRows.Count > 0)
             {
-                // Lặp qua tất cả các hàng được chọn và xóa chúng
                 foreach (DataGridViewRow row in dataGVMonDaChon.SelectedRows)
                 {
                     dataGVMonDaChon.Rows.Remove(row);
@@ -131,18 +129,28 @@ namespace GUI_RestaurantManager.UserControls
             }
             else
             {
-                // Hiển thị thông báo cho người dùng nếu không có hàng nào được chọn
                 MessageBox.Show("Vui lòng chọn ít nhất một hàng để xóa.");
             }
         }
-
         private void btnSave_Click(object sender, EventArgs e)
         {
+            bool result = false;
             List<DTO_ThucDon> danhSachThucDon = LayDanhSachThucDon();
             foreach (DTO_ThucDon thucDon in danhSachThucDon)
             {
-
-                bus_thucDon.ThemThucDon(thucDon);
+                result= bus_thucDon.ThemThucDon(thucDon);
+                if (!result)
+                {
+                    break;
+                }
+            }
+            if (result)
+            {
+                MessageBox.Show("Tất cả thực đơn đã thêm thành công.");
+            }
+            else
+            {
+                MessageBox.Show("Thực đơn không được thêm thành công!.");
             }
         }
     }

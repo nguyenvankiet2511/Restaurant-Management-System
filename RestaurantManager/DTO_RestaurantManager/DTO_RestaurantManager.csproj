@@ -44,7 +44,8 @@
     <Compile Include="DTO_Ban.cs" />
     <Compile Include="DTO_BanDat.cs" />
     <Compile Include="DTO_DangKyBanDat.cs" />
-    <Compile Include="DTO_ChiTietHoaDon.cs" />
+    <Compile Include="DTO_HoaDonDonHang.cs" />
+    <Compile Include="DTO_DanhSachDonHang.cs" />
     <Compile Include="DTO_DonHang.cs" />
     <Compile Include="DTO_HoaDon.cs" />
     <Compile Include="DTO_KhachHang.cs" />

@@ -2,6 +2,7 @@
 using DTO_RestaurantManager;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,9 +13,13 @@ namespace BUS_RestaurantManager
     {
         DAL_ThucDon dal_thucDon= new DAL_ThucDon();
         public BUS_ThucDon() { }
-        public void ThemThucDon(DTO_ThucDon thucDon)
+        public bool ThemThucDon(DTO_ThucDon thucDon)
         {
-            dal_thucDon.ThemThucDon(thucDon);
+          return  dal_thucDon.ThemThucDon(thucDon);
+        }
+        public DataTable GetThucDonList(int maBanDat)
+        {
+            return dal_thucDon.GetThucDonList(maBanDat);
         }
       
     }
