@@ -10,9 +10,8 @@ namespace DTO_RestaurantManager
     {
         public int maHoaDon { get; set; }
         public DateTime ngayLap { get; set; }
-        public string loaiHoaDon { get; set; }
         public string moTa { get; set; }
-        public float thanhTien { get; set; }
+        public int thanhTien { get; set; }
         public int maNVTN { get; set; }
          
         public int maBanDat {  get; set; }
@@ -23,13 +22,18 @@ namespace DTO_RestaurantManager
             // Khởi tạo ngày lập là ngày hiện tại
             this.ngayLap = DateTime.Now.Date;
         }
-
+        public DTO_HoaDon(int thanhTien, int maNVTN, int maBanDat)
+        {
+            this.thanhTien = thanhTien;
+            this.maNVTN = maNVTN;
+            this.maBanDat = maBanDat;
+        }
         // Constructor với tham số
-        public DTO_HoaDon(int maHoaDon, DateTime ngayLap, string loaiHoaDon, string moTa, float thanhTien, int maNVTN)
+        public DTO_HoaDon(int maHoaDon, DateTime ngayLap,  string moTa, int thanhTien, int maNVTN)
         {
             this.maHoaDon = maHoaDon;
             this.ngayLap = ngayLap;
-            this.loaiHoaDon = loaiHoaDon;
+
             this.moTa = moTa;
             this.thanhTien = thanhTien;
             this.maNVTN = maNVTN;

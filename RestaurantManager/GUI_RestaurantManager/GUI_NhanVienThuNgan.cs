@@ -25,15 +25,37 @@ namespace GUI_RestaurantManager
             panelContainer.Controls.Add(userControl);
             userControl.BringToFront();
         }
-        private void btnThanhToanHD_Click(object sender, EventArgs e)
+        private void btnLapHoaDon_Click(object sender, EventArgs e)
+        {
+            UC_ThanhToanHoaDon uc_lapHoaDon = new UC_ThanhToanHoaDon();
+            uc_lapHoaDon.SetFormParent(this);
+            addUserControl(uc_lapHoaDon);
+        }
+
+        private void btnXemHoaDon_Click(object sender, EventArgs e)
+        {
+            UC_XemHoaDon uc_xemHoaDon = new UC_XemHoaDon();
+            addUserControl(uc_xemHoaDon);
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void btnLapHoaDon_Click(object sender, EventArgs e)
+        private void btnDangXuat_Click(object sender, EventArgs e)
         {
-            UC_LapHoaDon uc_lapHoaDon = new UC_LapHoaDon();
-            addUserControl(uc_lapHoaDon);
+
+        }
+
+        private void panelContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -36,6 +36,9 @@ namespace BUS_RestaurantManager
         {
             return dal_banDat.LayDanhSachBanDatKH(maKH);
         }
-
+        public bool LayTrangThaiBanDat(int maBanDat)
+        {
+            return dal_banDat.LayTrangThaiBanDat(maBanDat);
+        }
     }
 }

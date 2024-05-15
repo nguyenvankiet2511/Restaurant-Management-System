@@ -163,6 +163,20 @@ namespace DAL_RestaurantManager
 
             return danhSachBanDat;
         }
-
+        public bool LayTrangThaiBanDat(int maBanDat)
+        {
+            bool trangThai=false;
+            connect.Open();
+            string query = "SELECT TrangThai FROM BanDat WHERE MaBanDat = @MaBanDat";
+            sqlCommand = new SqlCommand(query, connect);            
+            sqlCommand.Parameters.AddWithValue("@MaBanDat", maBanDat);
+            object result = sqlCommand.ExecuteScalar();
+            if (result != null)
+            {
+                trangThai = Convert.ToBoolean(result);
+            }
+            connect.Close();
+            return trangThai;
+        }
     }
 }

@@ -59,8 +59,20 @@ namespace GUI_RestaurantManager
                             this.Close();
                             break;
                         case 3:
+                            this.Hide();
+                            GUI_NhanVienThuNgan nhanVienTN = new GUI_NhanVienThuNgan();
+                            nhanVienTN.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
+                            MessageBox.Show(nhanVienTN.CurrentUser.ToString());
+                            nhanVienTN.ShowDialog();
+                            this.Close();
                             break;
                         case 4:
+                            this.Hide();
+                            GUI_NhanVienSale nhanVienSale = new GUI_NhanVienSale();
+                            nhanVienSale.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
+                            MessageBox.Show(nhanVienSale.CurrentUser.ToString());
+                            nhanVienSale.ShowDialog();
+                            this.Close();
                             break;
                         case 5:
                             this.Hide();

@@ -22,7 +22,13 @@ namespace DTO_RestaurantManager
             // Khởi tạo ngày đặt là ngày hiện tại
             this.ngayXacNhan = DateTime.Now;
         }
-
+        public DTO_DonHang( DateTime ngayDat, int maKH, int maMonAn, int maNVSale)
+        {
+            this.ngayDat = ngayDat;
+            this.maKH = maKH;
+            this.maMonAn = maMonAn;
+            this.maNVSale = maNVSale;
+        }
         // Constructor với tham số
         public DTO_DonHang(int maDonHang, bool trangThai, DateTime ngayDat, int maKH, int maNVSale, int maMonAn)
         {

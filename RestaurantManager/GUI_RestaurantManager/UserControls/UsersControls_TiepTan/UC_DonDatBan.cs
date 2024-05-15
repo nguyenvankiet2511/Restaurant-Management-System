@@ -92,10 +92,8 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             // Kiểm tra xem có dòng nào được chọn không
             if (dataGVDonDaChon.SelectedRows.Count > 0)
             {
-                // Lấy dòng được chọn
                 DataGridViewRow selectedRow = dataGVDonDaChon.SelectedRows[0];
 
-                // Lấy dữ liệu từ dòng được chọn trong dataGridView2
                 int maDK = Convert.ToInt32(selectedRow.Cells["MaDK"].Value);
                 int soLuongNguoi = Convert.ToInt32(selectedRow.Cells["SoLuongNguoi"].Value);
                 int viTri = Convert.ToInt32(selectedRow.Cells["ViTri"].Value);
@@ -104,14 +102,9 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
                 DateTime thoiGian = Convert.ToDateTime(selectedRow.Cells["ThoiGian"].Value);
                 int maKH = Convert.ToInt32(selectedRow.Cells["MaKH"].Value);
 
-                // Tạo DTO_DangKyBanDat object từ dữ liệu lấy được
                 DTO_DangKyBanDat datBan = new DTO_DangKyBanDat(maDK, soLuongNguoi, viTri, ghiChu, trangThai, thoiGian, maKH);
-
-                // Thêm dữ liệu vào nguồn dữ liệu của dataGridView1
                 List<DTO_DangKyBanDat> dataSource1 = (List<DTO_DangKyBanDat>)dataGVDonDatBan.DataSource;
                 dataSource1.Add(datBan);
-
-                // Cập nhật lại dataGridView1 bằng cách gán lại nguồn dữ liệu
                 dataGVDonDatBan.DataSource = null;
                 dataGVDonDatBan.DataSource = dataSource1;
                 ChangeHerderText();

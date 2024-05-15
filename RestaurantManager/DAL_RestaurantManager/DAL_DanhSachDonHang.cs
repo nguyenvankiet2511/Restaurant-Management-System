@@ -1,6 +1,8 @@
 ﻿using DTO_RestaurantManager;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -100,6 +102,25 @@ namespace DAL_RestaurantManager
                 connect.Close();
             }
             return false;
+        }
+        public DataTable GetAllDanhSachDonHangList()
+        {
+            string query = "SELECT * FROM DanhSachDonHang";
+            connect.Open();
+            SqlDataAdapter adapter = new SqlDataAdapter(query, connect);
+            DataTable danhSachDonHang = new DataTable();
+            adapter.Fill(danhSachDonHang);
+            connect.Close();
+            return danhSachDonHang;
+        }
+        public bool XoaDonHang(int maDSDH)
+        {
+            connect.Open();
+            string query = "DELETE FROM DanhSachDonHang WHERE MaDSDH = @MaDSDH";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@MaDSDH", maDSDH);
+            int rowsAffected = sqlCommand.ExecuteNonQuery();
+            return rowsAffected > 0; 
         }
     }
 }

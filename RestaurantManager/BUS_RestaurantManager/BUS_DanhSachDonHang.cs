@@ -2,6 +2,7 @@
 using DTO_RestaurantManager;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -27,6 +28,14 @@ namespace BUS_RestaurantManager
         public bool CapNhatDonHang(DTO_DanhSachDonHang donHang)
         {
             return dal_dsdh.CapNhatDonHangDat(donHang);
+        }
+        public DataTable GetAllDanhSachDonHang()
+        {
+            return dal_dsdh.GetAllDanhSachDonHangList();
+        }
+        public bool XoaDonHang(int maDSDH)
+        {
+            return dal_dsdh.XoaDonHang(maDSDH);
         }
     }
 }

@@ -45,6 +45,8 @@
     <Compile Include="DAL_BanDat.cs" />
     <Compile Include="DAL_DangKyBanDat.cs" />
     <Compile Include="DAL_DanhSachDonHang.cs" />
+    <Compile Include="DAL_DonHang.cs" />
+    <Compile Include="DAL_HoaDon.cs" />
     <Compile Include="DAL_KhachHang.cs" />
     <Compile Include="DAL_MonAn.cs" />
     <Compile Include="DAL_NguoiDung.cs" />

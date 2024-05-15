@@ -20,9 +20,8 @@ namespace DTO_RestaurantManager
         {
         }
         // Constructor với tham số
-        public DTO_HoaDonDonHang(int maCTHD, string tenMon, float giaMon, int soLuong,  float thanhTien, int maHoaDon, int maDonHang)
+        public DTO_HoaDonDonHang( string tenMon, float giaMon, int soLuong,  float thanhTien, int maDonHang)
         {
-            this.maCTHD = maCTHD;
             this.tenMon = tenMon;
             this.giaMon = giaMon;
             this.soLuong = soLuong;

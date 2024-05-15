@@ -114,17 +114,29 @@
     <Compile Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.Designer.cs">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_LapHoaDon.cs">
+    <Compile Include="UserControls\UsersControls_NhanVienSale\UC_DonDatHang.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_LapHoaDon.Designer.cs">
-      <DependentUpon>UC_LapHoaDon.cs</DependentUpon>
+    <Compile Include="UserControls\UsersControls_NhanVienSale\UC_DonDatHang.Designer.cs">
+      <DependentUpon>UC_DonDatHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienSale\UC_QuanLyDonHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienSale\UC_QuanLyDonHang.Designer.cs">
+      <DependentUpon>UC_QuanLyDonHang.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.Designer.cs">
       <DependentUpon>UC_ThanhToanHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_XemHoaDon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_XemHoaDon.Designer.cs">
+      <DependentUpon>UC_XemHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.cs">
       <SubType>UserControl</SubType>
@@ -171,6 +183,9 @@
     <EmbeddedResource Include="GUI_KhachHang.resx">
       <DependentUpon>GUI_KhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_NhanVienSale.resx">
+      <DependentUpon>GUI_NhanVienSale.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GUI_NhanVienThuNgan.resx">
       <DependentUpon>GUI_NhanVienThuNgan.cs</DependentUpon>
     </EmbeddedResource>
@@ -201,11 +216,17 @@
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.resx">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_LapHoaDon.resx">
-      <DependentUpon>UC_LapHoaDon.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\UsersControls_NhanVienSale\UC_DonDatHang.resx">
+      <DependentUpon>UC_DonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_NhanVienSale\UC_QuanLyDonHang.resx">
+      <DependentUpon>UC_QuanLyDonHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.resx">
       <DependentUpon>UC_ThanhToanHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_XemHoaDon.resx">
+      <DependentUpon>UC_XemHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_QuanTri\UC_QLMonAn.resx">
       <DependentUpon>UC_QLMonAn.cs</DependentUpon>
