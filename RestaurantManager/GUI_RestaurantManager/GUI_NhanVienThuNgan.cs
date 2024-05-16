@@ -37,7 +37,11 @@ namespace GUI_RestaurantManager
             UC_XemHoaDon uc_xemHoaDon = new UC_XemHoaDon();
             addUserControl(uc_xemHoaDon);
         }
-
+        private void btnThanhToanDonHang_Click(object sender, EventArgs e)
+        {
+            UC_ThanhToanDonHang uc_thanhToanDonHang =new UC_ThanhToanDonHang();
+            addUserControl(uc_thanhToanDonHang);
+        }
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
@@ -57,5 +61,7 @@ namespace GUI_RestaurantManager
         {
 
         }
+
+        
     }
 }

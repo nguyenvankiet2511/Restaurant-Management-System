@@ -126,6 +126,12 @@
     <Compile Include="UserControls\UsersControls_NhanVienSale\UC_QuanLyDonHang.Designer.cs">
       <DependentUpon>UC_QuanLyDonHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanDonHang.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanDonHang.Designer.cs">
+      <DependentUpon>UC_ThanhToanDonHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -221,6 +227,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_NhanVienSale\UC_QuanLyDonHang.resx">
       <DependentUpon>UC_QuanLyDonHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanDonHang.resx">
+      <DependentUpon>UC_ThanhToanDonHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_NhanVienThuNgan\UC_ThanhToanHoaDon.resx">
       <DependentUpon>UC_ThanhToanHoaDon.cs</DependentUpon>

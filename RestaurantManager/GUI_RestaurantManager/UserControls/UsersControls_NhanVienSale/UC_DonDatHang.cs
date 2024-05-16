@@ -54,8 +54,9 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_NhanVienSale
                     int maMonAn = Convert.ToInt32(selectedRow.Cells["maMonAn"].Value);
                     int maKH= Convert.ToInt32(selectedRow.Cells["maKH"].Value) ;
                     int maNhanVien = gui_nvSale.CurrentUser;
+                    int soLuong = Convert.ToInt32(selectedRow.Cells["soLuong"].Value);
                     DateTime ngayDat = Convert.ToDateTime(selectedRow.Cells["ngayDat"].Value);
-                    DTO_DonHang donHang = new DTO_DonHang(ngayDat, maKH, maMonAn, maNhanVien);
+                    DTO_DonHang donHang = new DTO_DonHang(ngayDat,soLuong, maKH, maMonAn, maNhanVien);
                     dsDonHang.Add(donHang);
                 }
             }

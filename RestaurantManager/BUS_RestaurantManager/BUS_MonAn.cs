@@ -35,7 +35,7 @@ namespace BUS_RestaurantManager
         {
             return dal_monAn.KiemTraMonAn( tenMon) ;
         }
-        public int LayGiaMonAn(int maMonAn)
+        public DTO_MonAn LayGiaMonAn(int maMonAn)
         {
             return dal_monAn.LayGiaMonAn(maMonAn);
         }

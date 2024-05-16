@@ -36,5 +36,21 @@ namespace DAL_RestaurantManager
             connect.Close();
             return danhSachHoaDon;
         }
+        public bool ThemHoaDonDonHang(DTO_HoaDonDonHang hoaDon)
+        {
+            connect.Open();
+            string query = "INSERT INTO HoaDonDonHang(tenMon, giaMon, soLuong, thanhTien, maDonHang) VALUES (@tenMon, @giaMon, @soLuong, @thanhTien, @maDonHang)";
+            SqlCommand sqlCommand = new SqlCommand(query, connect);
+
+            sqlCommand.Parameters.AddWithValue("@tenMon", hoaDon.tenMon);
+            sqlCommand.Parameters.AddWithValue("@giaMon", hoaDon.giaMon);
+            sqlCommand.Parameters.AddWithValue("@soLuong", hoaDon.soLuong);
+            sqlCommand.Parameters.AddWithValue("@thanhTien", hoaDon.thanhTien);
+            sqlCommand.Parameters.AddWithValue("@maDonHang", hoaDon.maDonHang);
+
+            int result = sqlCommand.ExecuteNonQuery();
+            connect.Close();
+            return result > 0;
+        }
     }
 }

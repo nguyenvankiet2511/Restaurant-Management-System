@@ -10,9 +10,9 @@ namespace DTO_RestaurantManager
     {
         public int maCTHD { get; set; }
         public string tenMon { get; set; }
-        public float giaMon { get; set; }
+        public int giaMon { get; set; }
         public int soLuong { get; set; }
-        public float thanhTien { get; set; }
+        public int thanhTien { get; set; }
         public int maDonHang { get; set; }
 
         // Constructor không tham số
@@ -20,7 +20,7 @@ namespace DTO_RestaurantManager
         {
         }
         // Constructor với tham số
-        public DTO_HoaDonDonHang( string tenMon, float giaMon, int soLuong,  float thanhTien, int maDonHang)
+        public DTO_HoaDonDonHang( string tenMon, int giaMon, int soLuong,  int thanhTien, int maDonHang)
         {
             this.tenMon = tenMon;
             this.giaMon = giaMon;

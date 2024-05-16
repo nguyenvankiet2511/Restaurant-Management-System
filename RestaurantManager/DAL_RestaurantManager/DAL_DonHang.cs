@@ -16,9 +16,10 @@ namespace DAL_RestaurantManager
         public bool ThemDonHang(DTO_DonHang donHang)
         {
             connect.Open();
-            string query = "INSERT INTO DonHang(ngayDat, maKH, maMonAn, maNVSale) VALUES (@ngayDat,@maKH,@maMonAn, @maNVSale)";
+            string query = "INSERT INTO DonHang(ngayDat,soLuong, maKH, maMonAn, maNVSale) VALUES (@ngayDat,@soLuong,@maKH,@maMonAn, @maNVSale)";
             sqlCommand= new SqlCommand(query,connect);
             sqlCommand.Parameters.AddWithValue("@ngayDat", donHang.ngayDat);
+            sqlCommand.Parameters.AddWithValue("@soLuong", donHang.soLuong);
             sqlCommand.Parameters.AddWithValue("@maKH", donHang.maKH);
             sqlCommand.Parameters.AddWithValue("@maMonAn", donHang.maMonAn);
             sqlCommand.Parameters.AddWithValue("@maNVSale", donHang.maNVSale);
@@ -35,6 +36,31 @@ namespace DAL_RestaurantManager
             adapter.Fill(dsDonHang);
             connect.Close();
             return dsDonHang;
+        }
+        public bool XoaDonHang(int maDonHang)
+        {
+            connect.Open();
+            string query = "DELETE FROM DonHang WHERE maDonHang = @maDonHang";
+            SqlCommand sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@maDonHang", maDonHang);
+            int result = sqlCommand.ExecuteNonQuery();
+            connect.Close();
+            return result > 0;
+        }
+        public bool CapNhatDonHang(DTO_DonHang donHang)
+        {
+            connect.Open();
+            string query = "UPDATE DonHang SET ngayDat = @ngayDat, ngayXacNhan= @ngayXacNhan, soLuong = @soLuong, maKH = @maKH, maMonAn = @maMonAn WHERE maDonHang = @maDonHang";
+            SqlCommand sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@ngayDat", donHang.ngayDat);
+            sqlCommand.Parameters.AddWithValue("@ngayXacNhan", donHang.ngayXacNhan);
+            sqlCommand.Parameters.AddWithValue("@soLuong", donHang.soLuong);
+            sqlCommand.Parameters.AddWithValue("@maKH", donHang.maKH);
+            sqlCommand.Parameters.AddWithValue("@maMonAn", donHang.maMonAn);
+            sqlCommand.Parameters.AddWithValue("@maDonHang", donHang.maDonHang);
+            int result = sqlCommand.ExecuteNonQuery();
+            connect.Close();
+            return result > 0;
         }
     }
 }

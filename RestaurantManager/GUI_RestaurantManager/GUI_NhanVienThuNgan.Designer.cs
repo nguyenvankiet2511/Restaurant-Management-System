@@ -34,6 +34,7 @@
             this.btnLapHoaDon = new System.Windows.Forms.Button();
             this.btnXemHoaDon = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnThanhToanDonHang = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,6 +53,7 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.groupBox1.Controls.Add(this.btnThanhToanDonHang);
             this.groupBox1.Controls.Add(this.btnDangXuat);
             this.groupBox1.Controls.Add(this.btnLapHoaDon);
             this.groupBox1.Controls.Add(this.btnXemHoaDon);
@@ -76,17 +78,17 @@
             // 
             // btnLapHoaDon
             // 
-            this.btnLapHoaDon.Location = new System.Drawing.Point(4, 401);
+            this.btnLapHoaDon.Location = new System.Drawing.Point(4, 295);
             this.btnLapHoaDon.Name = "btnLapHoaDon";
             this.btnLapHoaDon.Size = new System.Drawing.Size(227, 71);
             this.btnLapHoaDon.TabIndex = 1;
-            this.btnLapHoaDon.Text = "Lập hóa đơn";
+            this.btnLapHoaDon.Text = "Thanh toán bàn đặt";
             this.btnLapHoaDon.UseVisualStyleBackColor = true;
             this.btnLapHoaDon.Click += new System.EventHandler(this.btnLapHoaDon_Click);
             // 
             // btnXemHoaDon
             // 
-            this.btnXemHoaDon.Location = new System.Drawing.Point(6, 299);
+            this.btnXemHoaDon.Location = new System.Drawing.Point(6, 193);
             this.btnXemHoaDon.Name = "btnXemHoaDon";
             this.btnXemHoaDon.Size = new System.Drawing.Size(227, 71);
             this.btnXemHoaDon.TabIndex = 0;
@@ -104,6 +106,16 @@
             this.label1.Size = new System.Drawing.Size(1398, 100);
             this.label1.TabIndex = 5;
             this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // btnThanhToanDonHang
+            // 
+            this.btnThanhToanDonHang.Location = new System.Drawing.Point(4, 389);
+            this.btnThanhToanDonHang.Name = "btnThanhToanDonHang";
+            this.btnThanhToanDonHang.Size = new System.Drawing.Size(227, 71);
+            this.btnThanhToanDonHang.TabIndex = 4;
+            this.btnThanhToanDonHang.Text = "Thanh toán đơn hàng";
+            this.btnThanhToanDonHang.UseVisualStyleBackColor = true;
+            this.btnThanhToanDonHang.Click += new System.EventHandler(this.btnThanhToanDonHang_Click);
             // 
             // GUI_NhanVienThuNgan
             // 
@@ -129,5 +141,6 @@
         private System.Windows.Forms.Button btnLapHoaDon;
         private System.Windows.Forms.Button btnXemHoaDon;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnThanhToanDonHang;
     }
 }

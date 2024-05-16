@@ -126,20 +126,21 @@ namespace DAL_RestaurantManager
             }
             return danhSachTimKiem;
         }
-        public int LayGiaMonAn(int maMonAn)
+        public DTO_MonAn LayGiaMonAn(int maMonAn)
         {
-            int gia= new int();
+            DTO_MonAn monAn = new DTO_MonAn();
             connect.Open();
-            string query = "SELECT giaMon FROM MonAn WHERE maMonAn=@maMonAn";
+            string query = "SELECT tenMon,giaMon FROM MonAn WHERE maMonAn=@maMonAn";
             sqlCommand= new SqlCommand(query, connect);
             sqlCommand.Parameters.AddWithValue("@maMonAn", maMonAn);
             sqlDataReader = sqlCommand.ExecuteReader();
             while (sqlDataReader.Read())
             {
-                gia= sqlDataReader.GetInt32(0);
+                monAn.tenMon = sqlDataReader.GetString(0);
+                monAn.giaMon= sqlDataReader.GetInt32(1);
             }
             connect.Close();
-            return gia;
+            return monAn;
         }
     }
 }
