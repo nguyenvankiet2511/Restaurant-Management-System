@@ -64,6 +64,7 @@ namespace DAL_RestaurantManager
             connect.Close();
             return maKH;      
         }
+  
         public bool CapNhapThongTinNguoiDung(DTO_NguoiDung nguoiDungMoi)
         {
             try

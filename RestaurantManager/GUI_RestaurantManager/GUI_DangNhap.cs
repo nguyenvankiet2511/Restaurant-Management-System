@@ -100,7 +100,10 @@ namespace GUI_RestaurantManager
 
         private void linkQuenMK_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Hide();
+            GUI_QuenMatKhau quenMatKhau= new GUI_QuenMatKhau();
+            quenMatKhau.ShowDialog();
+            this.Close();
         }
         private void linkDangKi_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

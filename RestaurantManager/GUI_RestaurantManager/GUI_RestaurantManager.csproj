@@ -113,6 +113,12 @@
     <Compile Include="GUI_NhanVienTiepTan.Designer.cs">
       <DependentUpon>GUI_NhanVienTiepTan.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI_QuenMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI_QuenMatKhau.Designer.cs">
+      <DependentUpon>GUI_QuenMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GUI_QuanTri.cs">
@@ -232,6 +238,9 @@
     <EmbeddedResource Include="GUI_QuanTri.resx">
       <DependentUpon>GUI_QuanTri.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GUI_QuenMatKhau.resx">
+      <DependentUpon>GUI_QuenMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -240,6 +249,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatBan.resx">
       <DependentUpon>UC_DatBan.cs</DependentUpon>
@@ -310,6 +320,8 @@
       <Name>DTO_RestaurantManager</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\top-5-mo-hinh-kinh-doanh-nha-hang-1.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

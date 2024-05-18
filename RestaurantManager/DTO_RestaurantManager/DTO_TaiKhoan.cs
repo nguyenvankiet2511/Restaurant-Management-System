@@ -20,6 +20,14 @@ namespace DTO_RestaurantManager
         public DTO_TaiKhoan() 
         {
         }
+        public DTO_TaiKhoan(string tenTaiKhoan, string username, string password,int maKH)
+        {
+            this.tenTaiKhoan=tenTaiKhoan;
+            this.username=username;
+            this.password=password;
+           // this.trangThai=true;
+            this.nguoiDungId=maKH;
+        }
         public DTO_TaiKhoan(string username, string password, int loaiTaiKhoan, int nguoiDungId)
         {
             this.username = username;

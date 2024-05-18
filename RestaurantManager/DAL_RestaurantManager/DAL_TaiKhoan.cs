@@ -25,5 +25,17 @@ namespace DAL_RestaurantManager
             connect.Close();
             return taiKhoan;
         }
+        public bool ThemTaiKhoan(DTO_TaiKhoan taiKhoan)
+        {
+            connect.Open();
+            string query = "INSERT INTO TaiKhoan (tenTaiKhoan, username, password,loaiTaiKhoan,nguoiDung_id) VALUES (@tenTaiKhoan, @username, @password,5,@nguoiDungId)";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@tenTaiKhoan", taiKhoan.tenTaiKhoan);
+            sqlCommand.Parameters.AddWithValue("@username", taiKhoan.username);
+            sqlCommand.Parameters.AddWithValue("@password", taiKhoan.password);
+            sqlCommand.Parameters.AddWithValue("@nguoiDungId", taiKhoan.nguoiDungId);
+            int result = sqlCommand.ExecuteNonQuery();
+            return result > 0;
+        }
     }
 }

@@ -60,5 +60,14 @@ namespace GUI_RestaurantManager
             uc_datHang.SetFormParent(this);
             addUserControl(uc_datHang);
         }
+
+        private void menuDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GUI_DangNhap dangNhap = new GUI_DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
+
+        }
     }
 }

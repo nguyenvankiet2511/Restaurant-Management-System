@@ -37,6 +37,7 @@
             this.menuDatHang = new System.Windows.Forms.ToolStripMenuItem();
             this.liênHệToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.menuDangXuat = new System.Windows.Forms.ToolStripMenuItem();
             this.menuCustomer.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +54,8 @@
             this.menuDatBan,
             this.menuDatMon,
             this.menuDatHang,
-            this.liênHệToolStripMenuItem});
+            this.liênHệToolStripMenuItem,
+            this.menuDangXuat});
             this.menuCustomer.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuCustomer.Location = new System.Drawing.Point(0, 0);
             this.menuCustomer.Name = "menuCustomer";
@@ -117,6 +119,13 @@
             this.panelContainer.TabIndex = 2;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
             // 
+            // menuDangXuat
+            // 
+            this.menuDangXuat.Name = "menuDangXuat";
+            this.menuDangXuat.Size = new System.Drawing.Size(130, 46);
+            this.menuDangXuat.Text = "Đăng xuất";
+            this.menuDangXuat.Click += new System.EventHandler(this.menuDangXuat_Click);
+            // 
             // GUI_KhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -145,5 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuDatHang;
         private System.Windows.Forms.ToolStripMenuItem liênHệToolStripMenuItem;
         private System.Windows.Forms.Panel panelContainer;
+        private System.Windows.Forms.ToolStripMenuItem menuDangXuat;
     }
 }
