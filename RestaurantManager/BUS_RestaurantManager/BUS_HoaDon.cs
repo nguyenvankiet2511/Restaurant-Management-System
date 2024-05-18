@@ -25,5 +25,17 @@ namespace BUS_RestaurantManager
         {
             return dal_hoaDon.ThemHoaDonDonHang(hoaDon);
         }
+        public DataTable LayDoanhThuTheoThang(int nam)
+        {
+            return dal_hoaDon.LayDoanhThuTheoThang(nam);
+        }
+        public DataTable LaySoLuongKhachTheoThang(int nam)
+        {
+            return dal_hoaDon.LaySoLuongKhachTheoThang(nam);
+        }
+        public DataTable LayDoanhThuDonHangTheoThang(int nam)
+        {
+            return dal_hoaDon.LayDoanhThuDonHang(nam);
+        }
     }
 }

@@ -48,3 +48,5 @@ C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_Restau
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_NhanVienSale.UC_DonDatHang.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_NhanVienSale.UC_QuanLyDonHang.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan.UC_ThanhToanDonHang.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_QuanTri.UC_TKBC.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_QuanTri.UC_ThayDoiQuyDinh.resources

@@ -9,6 +9,7 @@ namespace DTO_RestaurantManager
     public class DTO_HoaDonDonHang
     {
         public int maCTHD { get; set; }
+        public DateTime ngayLap { get; set; }
         public string tenMon { get; set; }
         public int giaMon { get; set; }
         public int soLuong { get; set; }

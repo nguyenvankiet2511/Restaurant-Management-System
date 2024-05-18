@@ -47,5 +47,17 @@ namespace GUI_RestaurantManager
             UC_QLNhanVien uc_qlNhanVien= new UC_QLNhanVien();
             addUserControl(uc_qlNhanVien);
         }
+
+        private void btnTKBC_Click(object sender, EventArgs e)
+        {
+            UC_TKBC uc_TKBC = new UC_TKBC();
+            addUserControl(uc_TKBC);
+        }
+
+        private void btnQuyDinh_Click(object sender, EventArgs e)
+        {
+            UC_ThayDoiQuyDinh uc_quyDinh= new UC_ThayDoiQuyDinh();
+            addUserControl(uc_quyDinh);
+        }
     }
 }

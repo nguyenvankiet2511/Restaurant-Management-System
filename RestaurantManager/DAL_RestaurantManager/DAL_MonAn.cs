@@ -1,6 +1,7 @@
 ﻿using DTO_RestaurantManager;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Runtime.Remoting.Contexts;
@@ -142,5 +143,39 @@ namespace DAL_RestaurantManager
             connect.Close();
             return monAn;
         }
+
+        public DataTable LayTanSuatMonAn(int thang, int nam)
+        {
+            string query = @"
+                SELECT 
+                    ma.tenMon AS TenMonAn,
+                    COUNT(*) AS TanSuat
+                FROM 
+                    ThucDon td
+                INNER JOIN 
+                    MonAn ma ON td.maMonAn = ma.maMonAn
+                INNER JOIN 
+                    BanDat bd ON td.maBanDat = bd.maBanDat
+                WHERE 
+                    MONTH(bd.thoiGian) = @Month AND YEAR(bd.thoiGian) = @Year
+                GROUP BY 
+                    ma.tenMon;";
+
+            connect.Open();
+
+            sqlCommand = new SqlCommand(query, connect);
+            {
+                sqlCommand.Parameters.AddWithValue("@Month", thang);
+                sqlCommand.Parameters.AddWithValue("@Year", nam);
+
+            SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);    
+            DataTable tanSuatMonAn = new DataTable();
+            adapter.Fill(tanSuatMonAn);
+            connect.Close();
+            return tanSuatMonAn;
+                
+            }
+        }
+
     }
 }

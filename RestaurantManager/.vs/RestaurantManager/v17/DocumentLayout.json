@@ -3,20 +3,96 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_thaydoiquydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_thaydoiquydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_thaydoiquydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_thaydoiquydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\bus_restaurantmanager\\bus_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|solutionrelative:bus_restaurantmanager\\bus_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dto_restaurantmanager\\dto_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|solutionrelative:dto_restaurantmanager\\dto_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_thaydoiquydinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_thaydoiquydinh.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\bus_restaurantmanager\\bus_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|solutionrelative:bus_restaurantmanager\\bus_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\bus_restaurantmanager\\bus_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|solutionrelative:bus_restaurantmanager\\bus_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\dal_restaurantmanager\\dal_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanvientieptan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanvientieptan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanvienthungan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanvienthungan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dto_restaurantmanager\\dto_hoadondonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,35 +103,23 @@
       "RelativeMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|solutionrelative:dto_restaurantmanager\\dto_hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\bus_restaurantmanager\\bus_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|solutionrelative:bus_restaurantmanager\\bus_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanviensale\\uc_quanlydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanviensale\\uc_quanlydonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanviensale\\uc_quanlydonhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanviensale\\uc_quanlydonhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanviensale\\uc_quanlydonhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanvienthungan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanvienthungan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanvienthungan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanvienthungan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoandonhang.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     },
     {
@@ -83,7 +147,7 @@
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanviensale\\uc_dondathang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|c:\\users\\admin\\desktop\\restaurant-management-system\\restaurantmanager\\gui_restaurantmanager\\gui_nhanviensale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanviensale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanviensale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -119,14 +183,6 @@
       "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_danhsachdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_xemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_xemhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -141,10 +197,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanvientieptan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanvientieptan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_dangki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -165,10 +217,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_nhanvienthungan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_nhanvienthungan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_nhanvienthungan\\uc_thanhtoanhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -207,18 +255,6 @@
       "RelativeMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|solutionrelative:dto_restaurantmanager\\dto_bandat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\bus_restaurantmanager\\bus_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|solutionrelative:bus_restaurantmanager\\bus_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dto_restaurantmanager\\dto_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|solutionrelative:dto_restaurantmanager\\dto_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|solutionrelative:dal_restaurantmanager\\dal_thucdon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -255,20 +291,12 @@
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_tieptan\\uc_quanlyban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_tieptan\\uc_quanlyban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_tieptan\\uc_quanlyban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_tieptan\\uc_quanlyban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A3BA3F7-80AC-4453-83A0-88E5B998A705}|DAL_RestaurantManager\\DAL_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dal_restaurantmanager\\dal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -307,20 +335,8 @@
       "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_qlmonan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\gui_quantri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\dto_restaurantmanager\\dto_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FC1DEB04-AA38-410F-94B5-80090DAAD72F}|DTO_RestaurantManager\\DTO_RestaurantManager.csproj|solutionrelative:dto_restaurantmanager\\dto_monan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_tkbc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{441D6F44-37DD-4647-A733-B43C5672942E}|GUI_RestaurantManager\\GUI_RestaurantManager.csproj|solutionrelative:gui_restaurantmanager\\usercontrols\\userscontrols_quantri\\uc_quydinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{17CD0C03-C6E8-495F-8565-3BD4D6544CFF}|BUS_RestaurantManager\\BUS_RestaurantManager.csproj|C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\bus_restaurantmanager\\bus_khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -362,102 +378,311 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\Program.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\Program.cs",
               "RelativeToolTip": "GUI_RestaurantManager\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T14:56:51.384Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UC_ThayDoiQuyDinh.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAewCYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:03:13.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UC_QLMonAn.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAArwCYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:12:16.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL_QuyDinh.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_QuyDinh.cs",
+              "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_QuyDinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_QuyDinh.cs",
+              "RelativeToolTip": "DAL_RestaurantManager\\DAL_QuyDinh.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwCAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:25:55.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DAL_HoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_HoaDon.cs",
-              "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_HoaDon.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_HoaDon.cs",
-              "RelativeToolTip": "DAL_RestaurantManager\\DAL_HoaDon.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDMAAAAcAAAA",
+              "Title": "BUS_QuyDinh.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_QuyDinh.cs",
+              "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_QuyDinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_QuyDinh.cs",
+              "RelativeToolTip": "BUS_RestaurantManager\\BUS_QuyDinh.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA1wB0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T00:58:01.158Z",
+              "WhenOpened": "2024-05-14T14:32:57.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_ThayDoiQuyDinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T07:53:48.048Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DTO_QuyDinh.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_QuyDinh.cs",
+              "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_QuyDinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_QuyDinh.cs",
+              "RelativeToolTip": "DTO_RestaurantManager\\DTO_QuyDinh.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T14:31:04.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "UC_QLMonAn.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:00:05.047Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_QLNhanVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:59:52.089Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UC_ThayDoiQuyDinh.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.Designer.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_ThayDoiQuyDinh.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T08:09:40.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GUI_QuanTri.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_QuanTri.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\GUI_QuanTri.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAewDsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:01:26.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GUI_QuanTri.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_QuanTri.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\GUI_QuanTri.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T12:51:42.689Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UC_QLNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAWwB0AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:46:38.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UC_TKBC.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T13:00:20.654Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BUS_MonAn.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_MonAn.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_MonAn.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_MonAn.cs",
               "RelativeToolTip": "BUS_RestaurantManager\\BUS_MonAn.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA+wCUAAAAYAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwCwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-12T13:39:01.028Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "UC_TKBC.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T13:33:46.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DAL_MonAn.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_MonAn.cs",
+              "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_MonAn.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_MonAn.cs",
+              "RelativeToolTip": "DAL_RestaurantManager\\DAL_MonAn.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAAAJEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-12T02:35:05.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "BUS_HoaDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_HoaDon.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_HoaDon.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_HoaDon.cs",
               "RelativeToolTip": "BUS_RestaurantManager\\BUS_HoaDon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA4AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T01:03:40.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UC_ThanhToanDonHang.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAArwEYAAAA1AAAA",
+              "DocumentIndex": 17,
+              "Title": "DAL_HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_HoaDon.cs",
+              "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_HoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_HoaDon.cs",
+              "RelativeToolTip": "DAL_RestaurantManager\\DAL_HoaDon.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAmwF4AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T02:48:39.202Z",
+              "WhenOpened": "2024-05-15T00:58:01.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
+              "Title": "GUI_NhanVienThuNgan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T07:09:37.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UC_TKBC.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.Designer.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.Designer.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.Designer.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAArwGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T14:35:46.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GUI_NhanVienTiepTan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs [Design]",
+              "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T14:07:13.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UC_ThanhToanDonHang.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs [Design]",
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T02:38:47.672Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-16T02:38:47.672Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 23,
               "Title": "DTO_HoaDonDonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_HoaDonDonHang.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_HoaDonDonHang.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_HoaDonDonHang.cs",
               "RelativeToolTip": "DTO_RestaurantManager\\DTO_HoaDonDonHang.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAACAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA5wBgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:14:02.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T07:14:02.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 24,
               "Title": "DTO_HoaDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_HoaDon.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_HoaDon.cs",
@@ -465,25 +690,23 @@
               "RelativeToolTip": "DTO_RestaurantManager\\DTO_HoaDon.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:14:29.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T07:14:29.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DAL_MonAn.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_MonAn.cs",
-              "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_MonAn.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_MonAn.cs",
-              "RelativeToolTip": "DAL_RestaurantManager\\DAL_MonAn.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAwwI4AAAAYAAAA",
+              "DocumentIndex": 25,
+              "Title": "UC_ThanhToanDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
+              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
+              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAEYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T02:35:05.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T02:48:39.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 26,
               "Title": "UC_QuanLyDonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs",
@@ -491,12 +714,11 @@
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAYwEgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:36:43.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:36:43.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 28,
               "Title": "GUI_NhanVienThuNgan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
@@ -504,48 +726,33 @@
               "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
               "ViewState": "AQIAABsAAAAAAAAAAIA4wCsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:34:54.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T07:34:54.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 27,
               "Title": "UC_QuanLyDonHang.resx",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.resx",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.resx",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.resx",
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-16T02:49:04.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T02:49:04.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GUI_NhanVienThuNgan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:09:37.808Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 29,
               "Title": "UC_ThanhToanDonHang.resx",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.resx",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.resx",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.resx",
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanDonHang.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-05-16T02:39:20.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-16T02:39:20.612Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 30,
               "Title": "UC_DonDatHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs",
@@ -553,24 +760,22 @@
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs",
               "ViewState": "AQIAAEsAAAAAAAAAAAArwF8AAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T02:18:25.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T02:18:25.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 31,
               "Title": "UC_QuanLyDonHang.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs [Design]",
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_QuanLyDonHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T02:11:00.49Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-15T02:11:00.49Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 32,
               "Title": "DAL_DonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_DonHang.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_DonHang.cs",
@@ -578,12 +783,11 @@
               "RelativeToolTip": "DAL_RestaurantManager\\DAL_DonHang.cs",
               "ViewState": "AQIAACMAAAAAAAAAAAAYwDcAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:15:32.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:15:32.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 33,
               "Title": "DTO_DonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_DonHang.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_DonHang.cs",
@@ -591,12 +795,11 @@
               "RelativeToolTip": "DTO_RestaurantManager\\DTO_DonHang.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAAmwCgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T03:07:28.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-08T03:07:28.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 34,
               "Title": "BUS_DonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_DonHang.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_DonHang.cs",
@@ -604,36 +807,33 @@
               "RelativeToolTip": "BUS_RestaurantManager\\BUS_DonHang.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T14:24:03.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T14:24:03.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "UC_DonDatHang.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs [Design]",
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T02:10:15.998Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-15T02:10:15.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "GUI_NhanVienSale.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienSale.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienSale.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienSale.cs [Design]",
               "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienSale.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T07:08:51.368Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-14T07:08:51.368Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 37,
               "Title": "GUI_NhanVienSale.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienSale.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienSale.cs",
@@ -645,7 +845,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 38,
               "Title": "DAL_NguoiDung.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_NguoiDung.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_NguoiDung.cs",
@@ -657,7 +857,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 39,
               "Title": "BUS_NguoiDung.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_NguoiDung.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_NguoiDung.cs",
@@ -669,7 +869,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 40,
               "Title": "UC_DonDatBan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_DonDatBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_DonDatBan.cs",
@@ -681,7 +881,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 41,
               "Title": "UC_DonDatHang.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.Designer.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.Designer.cs",
@@ -689,12 +889,11 @@
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienSale\\UC_DonDatHang.Designer.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T02:11:55.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T02:11:55.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 42,
               "Title": "UC_DonDatBan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_DonDatBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_DonDatBan.cs",
@@ -705,7 +904,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 43,
               "Title": "BUS_DanhSachDonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_DanhSachDonHang.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_DanhSachDonHang.cs",
@@ -717,7 +916,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 44,
               "Title": "DAL_DanhSachDonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_DanhSachDonHang.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_DanhSachDonHang.cs",
@@ -729,30 +928,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "UC_QLMonAn.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAArwCYAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:12:16.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "UC_QLMonAn.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:00:05.047Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "UC_XemHoaDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_XemHoaDon.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_XemHoaDon.cs",
@@ -764,7 +940,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "GUI_DangNhap.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_DangNhap.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_DangNhap.cs",
@@ -776,7 +952,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 47,
               "Title": "GUI_DangNhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_DangNhap.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_DangNhap.cs",
@@ -787,7 +963,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 48,
               "Title": "GUI_KhachHang.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_KhachHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_KhachHang.cs",
@@ -798,18 +974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "GUI_NhanVienTiepTan.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T14:07:13.129Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 49,
               "Title": "GUI_DangKi.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_DangKi.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_DangKi.cs",
@@ -820,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 50,
               "Title": "UC_DatMon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatMon.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatMon.cs",
@@ -831,7 +996,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 51,
               "Title": "UC_XemMonAn.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_XemMonAn.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_XemMonAn.cs",
@@ -842,7 +1007,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "GUI_NhanVienThuNgan.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienThuNgan.Designer.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.Designer.cs",
@@ -850,12 +1015,11 @@
               "RelativeToolTip": "GUI_RestaurantManager\\GUI_NhanVienThuNgan.Designer.cs",
               "ViewState": "AQIAAEwAAAAAAAAAAAArwF0AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T01:45:50.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T01:45:50.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 52,
               "Title": "UC_XemHoaDon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_XemHoaDon.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_XemHoaDon.cs",
@@ -866,18 +1030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "GUI_QuanTri.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_QuanTri.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\GUI_QuanTri.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:51:42.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 55,
               "Title": "DAL_BanDat.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_BanDat.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_BanDat.cs",
@@ -889,7 +1042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 57,
               "Title": "BUS_BanDat.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_BanDat.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_BanDat.cs",
@@ -901,7 +1054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 56,
               "Title": "UC_ThanhToanHoaDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanHoaDon.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanHoaDon.cs",
@@ -913,7 +1066,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 54,
               "Title": "UC_ThanhToanHoaDon.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanHoaDon.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_NhanVienThuNgan\\UC_ThanhToanHoaDon.cs",
@@ -924,7 +1077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 58,
               "Title": "DAL_Ban.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_Ban.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_Ban.cs",
@@ -936,7 +1089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 59,
               "Title": "UC_DatBan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatBan.cs",
@@ -948,7 +1101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 60,
               "Title": "UC_DatBan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatBan.cs",
@@ -959,7 +1112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 61,
               "Title": "DAL_KhachHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_KhachHang.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_KhachHang.cs",
@@ -971,7 +1124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 62,
               "Title": "DTO_BanDat.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_BanDat.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_BanDat.cs",
@@ -983,43 +1136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "DAL_QuyDinh.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_QuyDinh.cs",
-              "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_QuyDinh.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_QuyDinh.cs",
-              "RelativeToolTip": "DAL_RestaurantManager\\DAL_QuyDinh.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:25:55.441Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "DTO_QuyDinh.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_QuyDinh.cs",
-              "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_QuyDinh.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_QuyDinh.cs",
-              "RelativeToolTip": "DTO_RestaurantManager\\DTO_QuyDinh.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:31:04.927Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "BUS_QuyDinh.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_QuyDinh.cs",
-              "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_QuyDinh.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_QuyDinh.cs",
-              "RelativeToolTip": "BUS_RestaurantManager\\BUS_QuyDinh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T14:32:57.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 63,
               "Title": "DAL_ThucDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_ThucDon.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_ThucDon.cs",
@@ -1031,7 +1148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 64,
               "Title": "BUS_ThucDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_ThucDon.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_ThucDon.cs",
@@ -1043,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 65,
               "Title": "DTO_ThucDon.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_ThucDon.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_ThucDon.cs",
@@ -1055,7 +1172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 66,
               "Title": "UC_DatHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatHang.cs",
@@ -1067,7 +1184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 67,
               "Title": "UC_DatHang.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_KhachHang\\UC_DatHang.cs",
@@ -1078,7 +1195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 68,
               "Title": "GUI_NhanVienTiepTan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_NhanVienTiepTan.cs",
@@ -1090,7 +1207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 69,
               "Title": "DTO_DangKyBanDat.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_DangKyBanDat.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_DangKyBanDat.cs",
@@ -1102,7 +1219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 70,
               "Title": "DTO_DanhSachDonHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_DanhSachDonHang.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_DanhSachDonHang.cs",
@@ -1114,7 +1231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 71,
               "Title": "GUI_KhachHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_KhachHang.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_KhachHang.cs",
@@ -1126,7 +1243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 72,
               "Title": "UC_QuanLyBan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_QuanLyBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_QuanLyBan.cs",
@@ -1138,18 +1255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
-              "Title": "UC_QLNhanVien.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:59:52.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 73,
               "Title": "UC_QuanLyBan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_QuanLyBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_QuanLyBan.cs",
@@ -1160,7 +1266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 74,
               "Title": "DAL_NhanVien.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_NhanVien.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_NhanVien.cs",
@@ -1172,7 +1278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 75,
               "Title": "DTO_QuanTriVien.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_QuanTriVien.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_QuanTriVien.cs",
@@ -1184,19 +1290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "UC_QLNhanVien.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAMwIcAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T00:46:38.228Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 76,
               "Title": "DTO_NhanVienTiepTan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_NhanVienTiepTan.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_NhanVienTiepTan.cs",
@@ -1208,7 +1302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 77,
               "Title": "DTO_NhanVienThuNgan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_NhanVienThuNgan.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_NhanVienThuNgan.cs",
@@ -1220,7 +1314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 78,
               "Title": "DTO_NhanVienSale.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_NhanVienSale.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_NhanVienSale.cs",
@@ -1232,7 +1326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 79,
               "Title": "BUS_NhanVien.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_NhanVien.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_NhanVien.cs",
@@ -1244,7 +1338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 80,
               "Title": "UC_QLNhanVien.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.Designer.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.Designer.cs",
@@ -1252,11 +1346,12 @@
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLNhanVien.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T01:04:16.545Z"
+              "WhenOpened": "2024-05-13T01:04:16.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 81,
               "Title": "DTO_NguoiDung.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_NguoiDung.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_NguoiDung.cs",
@@ -1268,7 +1363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 82,
               "Title": "UC_QLMonAn.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.Designer.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.Designer.cs",
@@ -1276,23 +1371,12 @@
               "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QLMonAn.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T14:23:39.526Z"
+              "WhenOpened": "2024-05-12T14:23:39.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "GUI_QuanTri.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\GUI_QuanTri.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\GUI_QuanTri.cs",
-              "RelativeToolTip": "GUI_RestaurantManager\\GUI_QuanTri.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAjwC8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:01:26.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 83,
               "Title": "DTO_MonAn.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DTO_RestaurantManager\\DTO_MonAn.cs",
               "RelativeDocumentMoniker": "DTO_RestaurantManager\\DTO_MonAn.cs",
@@ -1304,29 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "UC_TKBC.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_TKBC.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T13:00:20.654Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
-              "Title": "UC_QuyDinh.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QuyDinh.cs",
-              "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QuyDinh.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QuyDinh.cs [Design]",
-              "RelativeToolTip": "GUI_RestaurantManager\\UserControls\\UsersControls_QuanTri\\UC_QuyDinh.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-12T12:59:35.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "BUS_KhachHang.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_KhachHang.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_KhachHang.cs",
@@ -1338,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "DAL_DangKyBanDat.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_DangKyBanDat.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_DangKyBanDat.cs",
@@ -1350,7 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "BUS_Ban.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_Ban.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_Ban.cs",
@@ -1362,7 +1424,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "DAL_TaiKhoan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\DAL_RestaurantManager\\DAL_TaiKhoan.cs",
               "RelativeDocumentMoniker": "DAL_RestaurantManager\\DAL_TaiKhoan.cs",
@@ -1374,7 +1436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "UC_QuanLyBan.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_QuanLyBan.Designer.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UsersControls_TiepTan\\UC_QuanLyBan.Designer.cs",
@@ -1386,7 +1448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "BUS_DangKyBanDat.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\BUS_RestaurantManager\\BUS_DangKyBanDat.cs",
               "RelativeDocumentMoniker": "BUS_RestaurantManager\\BUS_DangKyBanDat.cs",
@@ -1398,7 +1460,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "UC_DatBan.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UC_DatBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UC_DatBan.cs",
@@ -1409,7 +1471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 91,
               "Title": "UC_DatBan.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\Restaurant-Management-System\\RestaurantManager\\GUI_RestaurantManager\\UserControls\\UC_DatBan.cs",
               "RelativeDocumentMoniker": "GUI_RestaurantManager\\UserControls\\UC_DatBan.cs",
