@@ -63,6 +63,26 @@ namespace GUI_RestaurantManager.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banner_seafood {
+            get {
+                object obj = ResourceManager.GetObject("banner-seafood", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_seafood {
+            get {
+                object obj = ResourceManager.GetObject("logo_seafood", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap top_5_mo_hinh_kinh_doanh_nha_hang_1 {
             get {
                 object obj = ResourceManager.GetObject("top-5-mo-hinh-kinh-doanh-nha-hang-1", resourceCulture);

@@ -323,5 +323,11 @@
   <ItemGroup>
     <None Include="Resources\top-5-mo-hinh-kinh-doanh-nha-hang-1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banner-seafood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_seafood.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
