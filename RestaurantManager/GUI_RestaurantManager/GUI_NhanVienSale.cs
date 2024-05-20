@@ -30,13 +30,24 @@ namespace GUI_RestaurantManager
             UC_DonDatHang uC_DonDatHang = new UC_DonDatHang();
             uC_DonDatHang.SetFromParent(this);
             addUserControl(uC_DonDatHang);
-
         }
-
         private void btnQLDH_Click(object sender, EventArgs e)
         {
             UC_QuanLyDonHang uc_QLDH= new UC_QuanLyDonHang();
             addUserControl(uc_QLDH);
+        }
+
+        private void GUI_NhanVienSale_Load(object sender, EventArgs e)
+        {
+            btnDonDatHang_Click(sender, e);
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GUI_DangNhap dangNhap = new GUI_DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
         }
     }
 }

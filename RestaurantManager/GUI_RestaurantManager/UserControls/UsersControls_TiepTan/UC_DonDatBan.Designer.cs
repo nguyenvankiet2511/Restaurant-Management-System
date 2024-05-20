@@ -63,7 +63,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 37);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1193, 241);
+            this.groupBox1.Size = new System.Drawing.Size(1193, 140);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             // 
@@ -75,7 +75,7 @@
             this.dataGVDonDatBan.Name = "dataGVDonDatBan";
             this.dataGVDonDatBan.RowHeadersWidth = 51;
             this.dataGVDonDatBan.RowTemplate.Height = 24;
-            this.dataGVDonDatBan.Size = new System.Drawing.Size(1187, 220);
+            this.dataGVDonDatBan.Size = new System.Drawing.Size(1187, 119);
             this.dataGVDonDatBan.TabIndex = 0;
             this.dataGVDonDatBan.Click += new System.EventHandler(this.dataGVDonDatBan_Click);
             // 
@@ -125,7 +125,7 @@
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label2.Dock = System.Windows.Forms.DockStyle.Top;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(0, 278);
+            this.label2.Location = new System.Drawing.Point(0, 177);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1193, 34);
             this.label2.TabIndex = 5;
@@ -136,9 +136,9 @@
             // 
             this.groupBox2.Controls.Add(this.dataGVDonDaChon);
             this.groupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox2.Location = new System.Drawing.Point(0, 312);
+            this.groupBox2.Location = new System.Drawing.Point(0, 211);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(1193, 353);
+            this.groupBox2.Size = new System.Drawing.Size(1193, 454);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             // 
@@ -150,7 +150,7 @@
             this.dataGVDonDaChon.Name = "dataGVDonDaChon";
             this.dataGVDonDaChon.RowHeadersWidth = 51;
             this.dataGVDonDaChon.RowTemplate.Height = 24;
-            this.dataGVDonDaChon.Size = new System.Drawing.Size(1187, 332);
+            this.dataGVDonDaChon.Size = new System.Drawing.Size(1187, 433);
             this.dataGVDonDaChon.TabIndex = 0;
             this.dataGVDonDaChon.Click += new System.EventHandler(this.dataGVDonDaChon_Click);
             // 

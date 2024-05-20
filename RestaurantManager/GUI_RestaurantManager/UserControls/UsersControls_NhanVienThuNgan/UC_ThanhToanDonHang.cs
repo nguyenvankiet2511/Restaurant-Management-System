@@ -28,6 +28,15 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan
             dataGVDonHang.DataSource = bus_donHang.LayDanhSachDonHang();
             dataGVDonHang.RowTemplate.Height = 50; // Đặt chiều cao của mỗi dòng
             dataGVDonHang.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dataGVDonHang.Columns["maDonHang"].HeaderText = "Mã đơn hàng";
+            dataGVDonHang.Columns["trangThai"].HeaderText = "Trạng thái";
+            dataGVDonHang.Columns["ngayDat"].HeaderText = "Ngày đặt";
+            dataGVDonHang.Columns["ngayXacNhan"].HeaderText = "Ngày xác nhận";
+            dataGVDonHang.Columns["soLuong"].HeaderText = "Số lượng";
+            dataGVDonHang.Columns["maKH"].HeaderText = "Mã khách hàng";
+            dataGVDonHang.Columns["maNVSale"].HeaderText = "Mã nhân viên";
+            dataGVDonHang.Columns["maMonAn"].HeaderText = "Mã món ăn";
+
         }
         private void btnDelete_Click(object sender, EventArgs e)
         {
@@ -64,6 +73,8 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan
                 DTO_HoaDonDonHang hoaDon = new DTO_HoaDonDonHang(monAn.tenMon, monAn.giaMon, soLuong, thanhTien, maDonHang);
                 if (bus_hoaDon.ThemHoaDonDonHang(hoaDon))
                 {
+                    bus_donHang.DoiTrangThaiDonHang(maDonHang);
+                    LoadTables();
                     MessageBox.Show("Thanh toán thành công");
                 }
                 else

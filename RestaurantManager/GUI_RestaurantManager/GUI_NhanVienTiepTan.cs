@@ -17,7 +17,10 @@ namespace GUI_RestaurantManager
         public GUI_NhanVienTiepTan()
         {
             InitializeComponent();
-           
+            UC_DonDatBan uC_DonDatBan = new UC_DonDatBan();
+            uC_DonDatBan.SetParentForm(this);
+            addUserControl(uC_DonDatBan);
+
         }
         public void addUserControl(UserControl userControl)
         {
@@ -46,27 +49,16 @@ namespace GUI_RestaurantManager
             addUserControl(uC_QuanLyBan);
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            GUI_DangNhap dangNhap = new GUI_DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
         }
 
         private void btnXemThongTin_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panelTiepTan_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
         {
 
         }

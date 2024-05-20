@@ -27,12 +27,13 @@ namespace GUI_RestaurantManager
 
         private void GUI_QuanTri_Load(object sender, EventArgs e)
         {
-
+            btnTrangChu_Click(sender, e);
         }
 
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
-
+            UC_TrangChu uC_TrangChu = new UC_TrangChu();
+            addUserControl(uC_TrangChu);
         }
 
         private void btnMonAn_Click(object sender, EventArgs e)
@@ -58,6 +59,14 @@ namespace GUI_RestaurantManager
         {
             UC_ThayDoiQuyDinh uc_quyDinh= new UC_ThayDoiQuyDinh();
             addUserControl(uc_quyDinh);
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GUI_DangNhap dangNhap = new GUI_DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
         }
     }
 }

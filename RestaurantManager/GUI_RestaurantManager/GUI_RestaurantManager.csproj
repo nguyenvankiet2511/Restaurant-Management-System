@@ -205,6 +205,12 @@
     <Compile Include="UserControls\UsersControls_QuanTri\UC_TKBC.Designer.cs">
       <DependentUpon>UC_TKBC.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_TrangChu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_QuanTri\UC_TrangChu.Designer.cs">
+      <DependentUpon>UC_TrangChu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -289,6 +295,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_QuanTri\UC_TKBC.resx">
       <DependentUpon>UC_TKBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_QuanTri\UC_TrangChu.resx">
+      <DependentUpon>UC_TrangChu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_TiepTan\UC_DonDatBan.resx">
       <DependentUpon>UC_DonDatBan.cs</DependentUpon>

@@ -82,6 +82,16 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan
             int tong = (tienBan + tienMon) * (100 - khuyenMai) / 100;
             lbTongTien.Text = tong.ToString();
         }
+        public void ResetLable()
+        {
+            txtMaBanDat.Text = "";
+            lbMaBan.Text = "";
+            lbTienBan.Text = "";
+            lbTienMon.Text = "";
+            lbTongTien.Text = "";
+            lbViTri.Text = "";
+            checkBoxKM.Checked = false;
+        }
 
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
@@ -96,17 +106,20 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan
                 if (bus_hoaDon.ThemHoaDon(hoaDon))
                 {
                     bus_ban.CapNhatTrangThaiBan(viTri);
+                    bus_banDat.CapNhatTrangThaiBanDat(maBanDat);
                     MessageBox.Show("Thanh toán thành công!");
+                    ResetLable();
                 }
                 else
                 {
                     MessageBox.Show("Thanh toán không thành công!");
+                    ResetLable();
                 }
             }
             else
             {
                 MessageBox.Show("Bàn đặt đã thanh toán!");
-
+                ResetLable();
             }
         }
     }

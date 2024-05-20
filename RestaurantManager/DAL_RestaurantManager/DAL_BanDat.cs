@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
@@ -178,5 +179,55 @@ namespace DAL_RestaurantManager
             connect.Close();
             return trangThai;
         }
+        public bool CapNhatTrangThaiBanDat(int maBanDat)
+        {
+            try
+            {
+                connect.Open();
+                // Lấy trạng thái hiện tại của bàn
+                string queryTrangThaiHienTai = "SELECT trangThai FROM BanDat WHERE maBanDat = @MaBanDat";
+                SqlCommand sqlCommandTrangThaiHienTai = new SqlCommand(queryTrangThaiHienTai, connect);
+                sqlCommandTrangThaiHienTai.Parameters.AddWithValue("@MaBanDat", maBanDat);
+                bool trangThaiHienTai = (bool)sqlCommandTrangThaiHienTai.ExecuteScalar();
+                // Cập nhật trạng thái ngược lại của bàn
+                bool trangThaiMoi = !trangThaiHienTai;
+                // Cập nhật trạng thái mới của bàn vào cơ sở dữ liệu
+                string queryCapNhatTrangThai = "UPDATE BanDat SET trangThai = @TrangThaiMoi WHERE maBanDat = @MaBanDat";
+                sqlCommand = new SqlCommand(queryCapNhatTrangThai, connect);
+                sqlCommand.Parameters.AddWithValue("@TrangThaiMoi", trangThaiMoi);
+                sqlCommand.Parameters.AddWithValue("@MaBanDat", maBanDat);
+                if (sqlCommand.ExecuteNonQuery() > 0) { return true; }
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            finally
+            {
+                connect.Close();
+            }
+            return false;
+        }
+        public int LaySoLuongBanDatTrongNgay()
+        {
+            int soLuongBanDat = 0;
+            string query = "SELECT COUNT(*) FROM BanDat WHERE CAST(thoiGian AS DATE) = CAST(GETDATE() AS DATE)";
+            try
+            {
+                connect.Open();
+                sqlCommand = new SqlCommand(query, connect);
+                soLuongBanDat = (int)sqlCommand.ExecuteScalar();
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connect.Close();
+            }
+            return soLuongBanDat;
+        }
+
     }
 }

@@ -33,8 +33,8 @@
             this.btnLapHoaDon = new System.Windows.Forms.Button();
             this.btnXemHoaDon = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panelContainer = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -100,15 +100,6 @@
             this.panel1.Size = new System.Drawing.Size(254, 503);
             this.panel1.TabIndex = 6;
             // 
-            // panelContainer
-            // 
-            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainer.Location = new System.Drawing.Point(254, 242);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1144, 503);
-            this.panelContainer.TabIndex = 7;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::GUI_RestaurantManager.Properties.Resources.logo_seafood;
@@ -119,6 +110,15 @@
             this.pictureBox2.Size = new System.Drawing.Size(254, 177);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
+            // 
+            // panelContainer
+            // 
+            this.panelContainer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(254, 242);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(1144, 503);
+            this.panelContainer.TabIndex = 7;
             // 
             // pictureBox1
             // 
@@ -142,6 +142,7 @@
             this.Name = "GUI_NhanVienThuNgan";
             this.Text = "Hệ thống quản lý nhà hàng";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.GUI_NhanVienThuNgan_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

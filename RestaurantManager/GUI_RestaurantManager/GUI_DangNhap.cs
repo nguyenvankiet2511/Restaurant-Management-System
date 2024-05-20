@@ -46,7 +46,7 @@ namespace GUI_RestaurantManager
                             this.Hide();
                             GUI_QuanTri quantri = new GUI_QuanTri();
                             quantri.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
-                            MessageBox.Show(quantri.CurrentUser.ToString());
+                          
                             quantri.ShowDialog();
                             this.Close();
                             break;
@@ -54,7 +54,7 @@ namespace GUI_RestaurantManager
                             this.Hide();
                             GUI_NhanVienTiepTan nhanVienTT= new GUI_NhanVienTiepTan();
                             nhanVienTT.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
-                            MessageBox.Show(nhanVienTT.CurrentUser.ToString());
+                            
                             nhanVienTT.ShowDialog();
                             this.Close();
                             break;
@@ -62,7 +62,7 @@ namespace GUI_RestaurantManager
                             this.Hide();
                             GUI_NhanVienThuNgan nhanVienTN = new GUI_NhanVienThuNgan();
                             nhanVienTN.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
-                            MessageBox.Show(nhanVienTN.CurrentUser.ToString());
+                            
                             nhanVienTN.ShowDialog();
                             this.Close();
                             break;
@@ -70,7 +70,7 @@ namespace GUI_RestaurantManager
                             this.Hide();
                             GUI_NhanVienSale nhanVienSale = new GUI_NhanVienSale();
                             nhanVienSale.CurrentUser = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
-                            MessageBox.Show(nhanVienSale.CurrentUser.ToString());
+                           
                             nhanVienSale.ShowDialog();
                             this.Close();
                             break;
@@ -78,13 +78,11 @@ namespace GUI_RestaurantManager
                             this.Hide();
                             GUI_KhachHang khachHang = new GUI_KhachHang();
                             khachHang.CurrentUserKH = Convert.ToInt32(taiKhoan.nguoiDungId.ToString());
-                            MessageBox.Show(khachHang.CurrentUserKH.ToString());
+                           
                             khachHang.ShowDialog();
                             this.Close();
                             break;
                     }
-                    MessageBox.Show("Đăng nhập thành công");
-                    return;
                 }
                 else 
                 {

@@ -1,6 +1,7 @@
 ﻿using DAL_RestaurantManager;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,10 @@ namespace BUS_RestaurantManager
         public bool ThemKhachHang(int maNguoiDung)
         {
             return dal_khachHang.ThemKhachHang(maNguoiDung);
+        }
+        public DataTable LayThongTinKhachHangDatBan()
+        {
+            return dal_khachHang.LayThongTinKhachHangDatBanTrongHomNay();
         }
     }
 }

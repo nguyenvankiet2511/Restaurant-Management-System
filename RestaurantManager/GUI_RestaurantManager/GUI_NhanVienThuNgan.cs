@@ -42,26 +42,16 @@ namespace GUI_RestaurantManager
             UC_ThanhToanDonHang uc_thanhToanDonHang =new UC_ThanhToanDonHang();
             addUserControl(uc_thanhToanDonHang);
         }
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnDangXuat_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            GUI_DangNhap dangNhap = new GUI_DangNhap();
+            dangNhap.ShowDialog();
+            this.Close();
         }
-
-        private void panelContainer_Paint(object sender, PaintEventArgs e)
+        private void GUI_NhanVienThuNgan_Load(object sender, EventArgs e)
         {
-
+            btnLapHoaDon_Click(sender, e);
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
     }
 }

@@ -29,7 +29,7 @@ namespace DAL_RestaurantManager
         }
         public DataTable LayDanhSachDonHang()
         {
-            string query = "SELECT * FROM DonHang";
+            string query = "SELECT * FROM DonHang WHERE trangThai = 1";
             connect.Open();
             SqlDataAdapter adapter = new SqlDataAdapter(query, connect);
             DataTable dsDonHang = new DataTable();
@@ -61,6 +61,20 @@ namespace DAL_RestaurantManager
             int result = sqlCommand.ExecuteNonQuery();
             connect.Close();
             return result > 0;
+        }
+        public bool DoiTrangThaiDonHang(int maDonHang)
+        {
+            string query = "UPDATE DonHang SET trangThai = @trangThaiMoi WHERE maDonHang = @maDonHang";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@trangThaiMoi", false);
+            sqlCommand.Parameters.AddWithValue("@maDonHang", maDonHang);
+
+            connect.Open();
+            int rowsAffected = sqlCommand.ExecuteNonQuery();
+            connect.Close();
+
+            return rowsAffected > 0;
+
         }
     }
 }

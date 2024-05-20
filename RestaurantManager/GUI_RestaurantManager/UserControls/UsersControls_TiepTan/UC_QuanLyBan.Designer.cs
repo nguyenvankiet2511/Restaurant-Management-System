@@ -38,6 +38,7 @@
             this.dataGVThucDon = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lbMaKH = new System.Windows.Forms.Label();
             this.dateThoiGian = new System.Windows.Forms.DateTimePicker();
             this.txtViTri = new System.Windows.Forms.TextBox();
             this.txtSoDienThoai = new System.Windows.Forms.TextBox();
@@ -56,7 +57,6 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.lbMaKH = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGVMonAn)).BeginInit();
@@ -119,11 +119,11 @@
             // 
             this.dataGVMonAn.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGVMonAn.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGVMonAn.Location = new System.Drawing.Point(3, 422);
+            this.dataGVMonAn.Location = new System.Drawing.Point(3, 374);
             this.dataGVMonAn.Name = "dataGVMonAn";
             this.dataGVMonAn.RowHeadersWidth = 51;
             this.dataGVMonAn.RowTemplate.Height = 24;
-            this.dataGVMonAn.Size = new System.Drawing.Size(620, 299);
+            this.dataGVMonAn.Size = new System.Drawing.Size(620, 347);
             this.dataGVMonAn.TabIndex = 6;
             // 
             // label4
@@ -131,7 +131,7 @@
             this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.label4.Dock = System.Windows.Forms.DockStyle.Top;
             this.label4.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(3, 383);
+            this.label4.Location = new System.Drawing.Point(3, 335);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(620, 39);
             this.label4.TabIndex = 5;
@@ -145,7 +145,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(3, 266);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(620, 117);
+            this.panel3.Size = new System.Drawing.Size(620, 69);
             this.panel3.TabIndex = 4;
             // 
             // dataGVThucDon
@@ -156,7 +156,7 @@
             this.dataGVThucDon.Name = "dataGVThucDon";
             this.dataGVThucDon.RowHeadersWidth = 51;
             this.dataGVThucDon.RowTemplate.Height = 24;
-            this.dataGVThucDon.Size = new System.Drawing.Size(620, 117);
+            this.dataGVThucDon.Size = new System.Drawing.Size(620, 69);
             this.dataGVThucDon.TabIndex = 0;
             // 
             // label3
@@ -164,9 +164,9 @@
             this.label3.BackColor = System.Drawing.Color.RosyBrown;
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 227);
+            this.label3.Location = new System.Drawing.Point(3, 224);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(620, 39);
+            this.label3.Size = new System.Drawing.Size(620, 42);
             this.label3.TabIndex = 3;
             this.label3.Text = "Danh sách món đã đặt";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -192,8 +192,17 @@
             this.panel2.Font = new System.Drawing.Font("Times New Roman", 13.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(3, 74);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(620, 153);
+            this.panel2.Size = new System.Drawing.Size(620, 150);
             this.panel2.TabIndex = 2;
+            // 
+            // lbMaKH
+            // 
+            this.lbMaKH.AutoSize = true;
+            this.lbMaKH.Location = new System.Drawing.Point(28, 128);
+            this.lbMaKH.Name = "lbMaKH";
+            this.lbMaKH.Size = new System.Drawing.Size(0, 25);
+            this.lbMaKH.TabIndex = 12;
+            this.lbMaKH.Visible = false;
             // 
             // dateThoiGian
             // 
@@ -348,15 +357,6 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Thông tin bàn ";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbMaKH
-            // 
-            this.lbMaKH.AutoSize = true;
-            this.lbMaKH.Location = new System.Drawing.Point(28, 128);
-            this.lbMaKH.Name = "lbMaKH";
-            this.lbMaKH.Size = new System.Drawing.Size(0, 25);
-            this.lbMaKH.TabIndex = 12;
-            this.lbMaKH.Visible = false;
             // 
             // UC_QuanLyBan
             // 

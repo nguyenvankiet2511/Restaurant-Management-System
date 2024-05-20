@@ -28,5 +28,9 @@ namespace BUS_RestaurantManager
         {
             return dal_donHang.CapNhatDonHang(donHang);
         }
+        public bool DoiTrangThaiDonHang(int maDonHang)
+        {
+            return dal_donHang.DoiTrangThaiDonHang(maDonHang) ;
+        }
     }
 }

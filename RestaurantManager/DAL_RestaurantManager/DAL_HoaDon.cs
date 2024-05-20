@@ -183,6 +183,99 @@ namespace DAL_RestaurantManager
             connect.Close();
             return doanhThuDonHang;
         }
+        public int DoanhThuDonHangTrongNgay()
+        {
+            int doanhThu = 0;
+            string query = @"
+                SELECT 
+                    COALESCE(SUM(thanhTien), 0) AS Revenue
+                FROM 
+                    HoaDonDonHang
+                WHERE 
+                    CAST(ngayLap AS DATE) = CAST(GETDATE() AS DATE)";
+
+            try
+            {
+                connect.Open();
+                sqlCommand = new SqlCommand(query, connect);
+                object result = sqlCommand.ExecuteScalar();
+                if (result != null)
+                {
+                    doanhThu = Convert.ToInt32(result);
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connect.Close();
+            }
+
+            return doanhThu;
+        }
+        public DataTable LayThongTinHoaDonDonHangTrongNgay()
+        {
+            DataTable hoaDonTable = new DataTable();
+            string query = @"
+                SELECT *
+                FROM HoaDonDonHang
+                WHERE CAST(ngayLap AS DATE) = CAST(GETDATE() AS DATE)";
+
+            try
+            {
+                connect.Open();
+                SqlCommand sqlCommand = new SqlCommand(query, connect);
+                SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
+                adapter.Fill(hoaDonTable);
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connect.Close();
+            }
+            return hoaDonTable;
+        }
+
+
+        public int LayDoanhThuTheoNgay()
+        {
+            int doanhThu = 0;
+            string query = @"
+                SELECT 
+                    COALESCE(SUM(c.thanhTien), 0) AS Revenue
+                FROM 
+                    (
+                        SELECT CAST(ngayLap AS DATE) AS [Date], thanhTien
+                        FROM HoaDon
+                        WHERE CAST(ngayLap AS DATE) = CAST(GETDATE() AS DATE)
+                        UNION ALL
+                        SELECT CAST(ngayLap AS DATE) AS [Date], thanhTien
+                        FROM HoaDonDonHang
+                        WHERE CAST(ngayLap AS DATE) = CAST(GETDATE() AS DATE)
+                    ) AS c;";
+            try
+            {
+                connect.Open();
+                sqlCommand = new SqlCommand(query, connect);
+                object result = sqlCommand.ExecuteScalar();
+                if (result != null)
+                {
+                    doanhThu = Convert.ToInt32(result);
+                }
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connect.Close();
+            }
+
+            return doanhThu;
+        }
 
     }
 }

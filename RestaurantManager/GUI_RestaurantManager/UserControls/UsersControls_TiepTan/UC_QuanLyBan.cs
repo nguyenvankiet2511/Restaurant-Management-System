@@ -49,7 +49,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_TiepTan
             BUS_Ban bus_Ban = new BUS_Ban();
             List<DTO_Ban> listBan = bus_Ban.getListBan();
             int pictureBoxWidth = 70;
-            int pictureBoxHeight = 70;
+            int pictureBoxHeight = 60;
             int padding = 10;
             int offetY = 10, offetX = 10;
             int rowCount = panelBan.Width / (pictureBoxWidth + padding);

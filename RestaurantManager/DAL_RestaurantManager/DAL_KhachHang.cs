@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -22,5 +23,42 @@ namespace DAL_RestaurantManager
             }
             return false;
         }
+        public DataTable LayThongTinKhachHangDatBanTrongHomNay()
+        {
+            DataTable thongTinKH = new DataTable();
+            string query = @"
+                    SELECT 
+                        nd.ten_nguoi_dung,  
+                        nd.diaChi, 
+                        nd.soDienThoai, 
+                        bd.maBanDat, 
+                        bd.soLuongNguoi, 
+                        bd.viTri, 
+                        bd.thoiGian
+                    FROM 
+                        BanDat bd
+                    INNER JOIN 
+                        KhachHang kh ON bd.maKH = kh.maKH
+                    INNER JOIN 
+                        NguoiDung nd ON kh.maKH = nd.idNguoiDung
+                    WHERE 
+                        CAST(bd.thoiGian AS DATE) = CAST(GETDATE() AS DATE)";
+            try
+            {
+                connect.Open();
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, connect);
+                dataAdapter.Fill(thongTinKH);
+            }
+            catch (Exception ex)
+            {
+            }
+            finally
+            {
+                connect.Close();
+            }
+
+            return thongTinKH;
+        }
+
     }
 }
