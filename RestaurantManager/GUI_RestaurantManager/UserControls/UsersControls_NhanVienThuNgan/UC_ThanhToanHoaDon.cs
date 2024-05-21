@@ -96,7 +96,6 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_NhanVienThuNgan
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
             int maBanDat = Convert.ToInt32(lbMaBan.Text);
-           // MessageBox.Show(bus_banDat.LayTrangThaiBanDat(maBanDat).ToString());
             if (bus_banDat.LayTrangThaiBanDat(maBanDat))
             {
                 int viTri = Convert.ToInt32(lbViTri.Text);

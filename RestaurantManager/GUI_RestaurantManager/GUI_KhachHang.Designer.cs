@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.menuCustomer = new System.Windows.Forms.MenuStrip();
-            this.giớiThiệuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gioiThieuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tinTứcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuXemMonAn = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDatBan = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDatMon = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDatHang = new System.Windows.Forms.ToolStripMenuItem();
             this.liênHệToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelContainer = new System.Windows.Forms.Panel();
             this.menuDangXuat = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.menuCustomer.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -48,7 +48,7 @@
             this.menuCustomer.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuCustomer.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuCustomer.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.giớiThiệuToolStripMenuItem,
+            this.gioiThieuToolStripMenuItem,
             this.tinTứcToolStripMenuItem,
             this.menuXemMonAn,
             this.menuDatBan,
@@ -63,11 +63,12 @@
             this.menuCustomer.TabIndex = 1;
             this.menuCustomer.Text = "menuStrip1";
             // 
-            // giớiThiệuToolStripMenuItem
+            // gioiThieuToolStripMenuItem
             // 
-            this.giớiThiệuToolStripMenuItem.Name = "giớiThiệuToolStripMenuItem";
-            this.giớiThiệuToolStripMenuItem.Size = new System.Drawing.Size(123, 46);
-            this.giớiThiệuToolStripMenuItem.Text = "Giới thiệu";
+            this.gioiThieuToolStripMenuItem.Name = "gioiThieuToolStripMenuItem";
+            this.gioiThieuToolStripMenuItem.Size = new System.Drawing.Size(123, 46);
+            this.gioiThieuToolStripMenuItem.Text = "Giới thiệu";
+            this.gioiThieuToolStripMenuItem.Click += new System.EventHandler(this.gioiThieuToolStripMenuItem_Click);
             // 
             // tinTứcToolStripMenuItem
             // 
@@ -109,6 +110,13 @@
             this.liênHệToolStripMenuItem.Size = new System.Drawing.Size(99, 46);
             this.liênHệToolStripMenuItem.Text = "Liên hệ";
             // 
+            // menuDangXuat
+            // 
+            this.menuDangXuat.Name = "menuDangXuat";
+            this.menuDangXuat.Size = new System.Drawing.Size(130, 46);
+            this.menuDangXuat.Text = "Đăng xuất";
+            this.menuDangXuat.Click += new System.EventHandler(this.menuDangXuat_Click);
+            // 
             // panelContainer
             // 
             this.panelContainer.BackColor = System.Drawing.SystemColors.ControlLightLight;
@@ -118,13 +126,6 @@
             this.panelContainer.Size = new System.Drawing.Size(1099, 625);
             this.panelContainer.TabIndex = 2;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
-            // 
-            // menuDangXuat
-            // 
-            this.menuDangXuat.Name = "menuDangXuat";
-            this.menuDangXuat.Size = new System.Drawing.Size(130, 46);
-            this.menuDangXuat.Text = "Đăng xuất";
-            this.menuDangXuat.Click += new System.EventHandler(this.menuDangXuat_Click);
             // 
             // GUI_KhachHang
             // 
@@ -146,7 +147,7 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuCustomer;
-        private System.Windows.Forms.ToolStripMenuItem giớiThiệuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gioiThieuToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tinTứcToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem menuXemMonAn;
         private System.Windows.Forms.ToolStripMenuItem menuDatBan;

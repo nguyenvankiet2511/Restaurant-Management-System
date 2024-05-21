@@ -133,7 +133,7 @@ namespace DAL_RestaurantManager
             {
                 connect.Open();
 
-                string query = "SELECT * FROM BanDat WHERE maKH = @MaKH";
+                string query = "SELECT * FROM BanDat WHERE maKH = @MaKH AND trangThai= 1";
                 sqlCommand = new SqlCommand(query, connect);
                 sqlCommand.Parameters.AddWithValue("@MaKH", maKH);
 

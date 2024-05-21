@@ -145,6 +145,12 @@
     <Compile Include="UserControls\UsersControls_KhachHang\UC_DatMon.Designer.cs">
       <DependentUpon>UC_DatMon.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_GioiThieu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UsersControls_KhachHang\UC_GioiThieu.Designer.cs">
+      <DependentUpon>UC_GioiThieu.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -266,6 +272,9 @@
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_DatMon.resx">
       <DependentUpon>UC_DatMon.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_GioiThieu.resx">
+      <DependentUpon>UC_GioiThieu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\UsersControls_KhachHang\UC_XemMonAn.resx">
       <DependentUpon>UC_XemMonAn.cs</DependentUpon>
     </EmbeddedResource>
@@ -337,6 +346,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\logo_seafood.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhanvien.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

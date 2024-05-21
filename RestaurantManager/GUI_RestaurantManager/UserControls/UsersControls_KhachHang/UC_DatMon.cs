@@ -33,7 +33,7 @@ namespace GUI_RestaurantManager.UserControls
         {
             int maKH = gui_KH.CurrentUserKH;
             comboBoxBanDat.DataSource = bus_banDat.danhSachBanDatKH(maKH);
-            comboBoxBanDat.DisplayMember = "thoiGian";
+            comboBoxBanDat.DisplayMember = "maBanDat";
             comboBoxBanDat.ValueMember = "maBanDat";
             //
             comboBoxMonAn.DataSource = bus_monAn.getListMonAn();

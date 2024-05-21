@@ -27,7 +27,7 @@ namespace GUI_RestaurantManager.UserControls.UsersControls_QuanTri
         {
             lbSoLuongKhach.Text = "Số lượng khách: " + bus_banDat.LaySoLuongBanDatTrongNgay();
             lbDoanhThuDonHang.Text = "Doang thu đơn hàng: " + bus_hoaDon.DoanhThuDonHangTrongNgay();
-            lbDoanhThuDonHang.Text= "Tổng doang thu: "+ bus_hoaDon.LayDoanhThuTheoNgay();
+            lbTongDoanhThu.Text= "Tổng doang thu: "+ bus_hoaDon.LayDoanhThuTheoNgay();
         }
         public void LoadDataKhachHang()
         {

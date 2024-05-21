@@ -28,7 +28,7 @@ namespace GUI_RestaurantManager
         }
         private void GUI_KhachHang_Load(object sender, EventArgs e)
         {
-
+            gioiThieuToolStripMenuItem_Click(sender, e);
         }
         private void menuXemMonAn_Click(object sender, EventArgs e)
         {
@@ -67,6 +67,13 @@ namespace GUI_RestaurantManager
             GUI_DangNhap dangNhap = new GUI_DangNhap();
             dangNhap.ShowDialog();
             this.Close();
+
+        }
+
+        private void gioiThieuToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UC_GioiThieu uc_gioiThieu= new UC_GioiThieu();
+            addUserControl (uc_gioiThieu);
 
         }
     }
