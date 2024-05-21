@@ -35,6 +35,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelContainer = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnDoiMatKhau = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -43,7 +44,7 @@
             // btnDangXuat
             // 
             this.btnDangXuat.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnDangXuat.Location = new System.Drawing.Point(3, 444);
+            this.btnDangXuat.Location = new System.Drawing.Point(5, 446);
             this.btnDangXuat.Name = "btnDangXuat";
             this.btnDangXuat.Size = new System.Drawing.Size(227, 71);
             this.btnDangXuat.TabIndex = 3;
@@ -54,7 +55,7 @@
             // btnQLDH
             // 
             this.btnQLDH.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnQLDH.Location = new System.Drawing.Point(3, 340);
+            this.btnQLDH.Location = new System.Drawing.Point(5, 284);
             this.btnQLDH.Name = "btnQLDH";
             this.btnQLDH.Size = new System.Drawing.Size(227, 71);
             this.btnQLDH.TabIndex = 1;
@@ -65,7 +66,7 @@
             // btnDonDatHang
             // 
             this.btnDonDatHang.BackColor = System.Drawing.Color.SandyBrown;
-            this.btnDonDatHang.Location = new System.Drawing.Point(5, 237);
+            this.btnDonDatHang.Location = new System.Drawing.Point(8, 203);
             this.btnDonDatHang.Name = "btnDonDatHang";
             this.btnDonDatHang.Size = new System.Drawing.Size(227, 71);
             this.btnDonDatHang.TabIndex = 0;
@@ -76,6 +77,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(190)))), ((int)(((byte)(199)))));
+            this.panel1.Controls.Add(this.btnDoiMatKhau);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.btnDangXuat);
             this.panel1.Controls.Add(this.btnDonDatHang);
@@ -118,6 +120,17 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // btnDoiMatKhau
+            // 
+            this.btnDoiMatKhau.BackColor = System.Drawing.Color.SandyBrown;
+            this.btnDoiMatKhau.Location = new System.Drawing.Point(5, 365);
+            this.btnDoiMatKhau.Name = "btnDoiMatKhau";
+            this.btnDoiMatKhau.Size = new System.Drawing.Size(227, 71);
+            this.btnDoiMatKhau.TabIndex = 5;
+            this.btnDoiMatKhau.Text = "Đổi mật khẩu";
+            this.btnDoiMatKhau.UseVisualStyleBackColor = false;
+            this.btnDoiMatKhau.Click += new System.EventHandler(this.btnDoiMatKhau_Click);
+            // 
             // GUI_NhanVienSale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -145,5 +158,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panelContainer;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnDoiMatKhau;
     }
 }

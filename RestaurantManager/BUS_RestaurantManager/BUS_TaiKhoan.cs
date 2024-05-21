@@ -16,5 +16,9 @@ namespace BUS_RestaurantManager
         {
             return dal_taiKhoan.ThemTaiKhoan(taiKhoan);
         }
+        public bool UpdatePassword(DTO_TaiKhoan taiKhoan)
+        {
+            return dal_taiKhoan.UpdatePassword(taiKhoan);
+        }
     }
 }

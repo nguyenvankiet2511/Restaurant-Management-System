@@ -76,5 +76,13 @@ namespace GUI_RestaurantManager
             addUserControl (uc_gioiThieu);
 
         }
+
+        private void DoiMatKhauToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+            GUI_DoiMatKhau doimatkhau=new GUI_DoiMatKhau();
+            doimatkhau.Show();
+            
+        }
     }
 }

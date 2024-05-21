@@ -37,5 +37,15 @@ namespace DAL_RestaurantManager
             int result = sqlCommand.ExecuteNonQuery();
             return result > 0;
         }
+        public bool UpdatePassword(DTO_TaiKhoan taiKhoan)
+        {
+            connect.Open();
+            string query = "UPDATE TaiKhoan set password=@password where username=@username";
+            sqlCommand = new SqlCommand(query, connect);
+            sqlCommand.Parameters.AddWithValue("@username", taiKhoan.username);
+            sqlCommand.Parameters.AddWithValue("@password", taiKhoan.password);
+            int count = sqlCommand.ExecuteNonQuery();
+            return count > 0;
+        }
     }
 }

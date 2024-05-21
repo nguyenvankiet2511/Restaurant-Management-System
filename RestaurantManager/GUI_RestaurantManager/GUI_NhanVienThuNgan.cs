@@ -53,5 +53,11 @@ namespace GUI_RestaurantManager
         {
             btnLapHoaDon_Click(sender, e);
         }
+
+        private void btnDoiMatKhau_Click(object sender, EventArgs e)
+        {
+            GUI_DoiMatKhau doiMatKhau = new GUI_DoiMatKhau();
+            doiMatKhau.Show();
+        }
     }
 }

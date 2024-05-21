@@ -49,5 +49,11 @@ namespace GUI_RestaurantManager
             dangNhap.ShowDialog();
             this.Close();
         }
+
+        private void btnDoiMatKhau_Click(object sender, EventArgs e)
+        {
+            GUI_DoiMatKhau doimatkhau=new GUI_DoiMatKhau();
+            doimatkhau.Show();
+        }
     }
 }

@@ -53,3 +53,4 @@ C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_Restau
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.GUI_QuenMatKhau.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_QuanTri.UC_TrangChu.resources
 C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.UserControls.UsersControls_KhachHang.UC_GioiThieu.resources
+C:\Users\Admin\Desktop\Restaurant-Management-System\RestaurantManager\GUI_RestaurantManager\obj\Debug\GUI_RestaurantManager.GUI_DoiMatKhau.resources

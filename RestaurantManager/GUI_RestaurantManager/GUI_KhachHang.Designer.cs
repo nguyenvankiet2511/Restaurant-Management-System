@@ -38,6 +38,7 @@
             this.liênHệToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuDangXuat = new System.Windows.Forms.ToolStripMenuItem();
             this.panelContainer = new System.Windows.Forms.Panel();
+            this.DoiMatKhauToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuCustomer.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,11 +56,12 @@
             this.menuDatMon,
             this.menuDatHang,
             this.liênHệToolStripMenuItem,
+            this.DoiMatKhauToolStripMenuItem,
             this.menuDangXuat});
             this.menuCustomer.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.menuCustomer.Location = new System.Drawing.Point(0, 0);
             this.menuCustomer.Name = "menuCustomer";
-            this.menuCustomer.Size = new System.Drawing.Size(1099, 50);
+            this.menuCustomer.Size = new System.Drawing.Size(1192, 50);
             this.menuCustomer.TabIndex = 1;
             this.menuCustomer.Text = "menuStrip1";
             // 
@@ -123,15 +125,22 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(0, 50);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1099, 625);
+            this.panelContainer.Size = new System.Drawing.Size(1192, 631);
             this.panelContainer.TabIndex = 2;
             this.panelContainer.Paint += new System.Windows.Forms.PaintEventHandler(this.panelContainer_Paint);
+            // 
+            // DoiMatKhauToolStripMenuItem
+            // 
+            this.DoiMatKhauToolStripMenuItem.Name = "DoiMatKhauToolStripMenuItem";
+            this.DoiMatKhauToolStripMenuItem.Size = new System.Drawing.Size(171, 46);
+            this.DoiMatKhauToolStripMenuItem.Text = "Đổi Mật Khẩu";
+            this.DoiMatKhauToolStripMenuItem.Click += new System.EventHandler(this.DoiMatKhauToolStripMenuItem_Click);
             // 
             // GUI_KhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1099, 675);
+            this.ClientSize = new System.Drawing.Size(1192, 681);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.menuCustomer);
             this.Name = "GUI_KhachHang";
@@ -156,5 +165,6 @@
         private System.Windows.Forms.ToolStripMenuItem liênHệToolStripMenuItem;
         private System.Windows.Forms.Panel panelContainer;
         private System.Windows.Forms.ToolStripMenuItem menuDangXuat;
+        private System.Windows.Forms.ToolStripMenuItem DoiMatKhauToolStripMenuItem;
     }
 }
